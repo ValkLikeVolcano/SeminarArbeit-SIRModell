@@ -47,6 +47,70 @@
       \field{title}{The SIR model of an epidemic}
       \field{year}{2021}
     \endentry
+    \entry{5}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=de20e3250faecdf1713262a01fe902a4}{%
+           family={Hethcote},
+           familyi={H\bibinitperiod},
+           given={Herbert\bibnamedelima W.},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{de20e3250faecdf1713262a01fe902a4}
+      \strng{fullhash}{de20e3250faecdf1713262a01fe902a4}
+      \strng{bibnamehash}{de20e3250faecdf1713262a01fe902a4}
+      \strng{authorbibnamehash}{de20e3250faecdf1713262a01fe902a4}
+      \strng{authornamehash}{de20e3250faecdf1713262a01fe902a4}
+      \strng{authorfullhash}{de20e3250faecdf1713262a01fe902a4}
+      \field{labelalpha}{Het89}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Applied Mathematical Ecology}
+      \field{isbn}{978-3-642-61317-3}
+      \field{title}{Three Basic Epidemiological Models}
+      \field{volume}{18}
+      \field{year}{1989}
+      \field{pages}{119\bibrangedash 144}
+      \range{pages}{26}
+    \endentry
+    \entry{2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d9c6c510913d48b2f71ba1a77f5ba5f1}{%
+           family={Kraemer},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \strng{fullhash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \strng{bibnamehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \strng{authorbibnamehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \strng{authornamehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \strng{authorfullhash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
+      \field{labelalpha}{Kra03}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3642556124}
+      \field{title}{Infektionsepidemiologie: Methoden, moderne Surveillance, mathematische Modelle, Global Public Health}
+      \field{year}{2003}
+      \field{pages}{81\bibrangedash 91}
+      \range{pages}{11}
+    \endentry
     \entry{3}{book}{}
       \name{author}{1}{}{%
         {{hash=6a7097e8d3ad0107b8eaf7bd8e7ecfb2}{%
