@@ -34,7 +34,7 @@
 
 \author{\LARGE Nicolas Martin} % Your name
 
-\date{\normalsize 8.11.2022} % Today's date (\today) or a custom date
+\date{\normalsize 8.11.2022}
 
 \begin{document}
 
@@ -53,48 +53,73 @@
 \section{Einleitung}
 \pagenumbering{arabic}
 
+Das \textsl{Covid-19} Virus hat in den letzten Jahren Eindrucksvoll bewiesen, wie schnell sich eine Epidemie ausbreiten und zur Pandemie werden kann,  
+Sowie welche verheerende Wirkung ebensolche auf die gesamte Bevölkerung und Wirtschaft der Welt haben. 
+Immer wieder teilten Experten in den Medien neue Verhaltens- und Hygieneregelungen mit durch welche die Verbreitung des Virus Vorhergesehen  und Verlangsamt werden konnte. Auch Prognosen über die Zukünftige Entwicklung der Pandemie wurden Veröffentlicht. 
+Doch wie genau Berechnen Epidemiologen die Entwicklung einer Epidemie um Vorhersagen zu treffen und die geeignetsten Gegenmaßnamen zur Eindämmung einer solchen zu ermitteln?\\
+\\
+Diese Literaturarbeit soll zunächst das \textbf{SIR-Modell} mit allen Voraussetzungen Betrachten, Die Einhergehenden Differenzialgleichungen und die Basisreproduktionszahl Mathematisch Analysieren und unter Betrachtung der Flexibilität des Modells evaluieren. 
+Des weiteren veranschaulicht die Arbeit das Mathematische Chaos des Modells 
+ferner welche Veränderungen mit verschiedenen Änderungen der Formeln und Variablen Einhergehen. 
+Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit  HIER FALL EINFÜGEN verglichen werden. 
+Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden keine Abweichungen des Modells im Detail Besprochen. 
 
 %----------------------------------------------------------------------------------------
 
+\newpage
 \section{Das SIR-Modell}
+
+Wenn man den Verlauf einer Epidemie von Anfang bis Ende anhand eines Mathematischen Modells beschreiben möchte, ist das \textbf{SIR-Modell} 
+mit nur zwei Parametern und drei Differentialgleichungen in der einfachsten Form ideal, um sich einen groben Überblick zu verschaffen. \cite[vgl.]{4}
+Im diesem Kapitel wird auf den Hintergrund, die Möglichkeiten und Limitierungen und die damit Einhergehenden Möglichkeiten der Anwendung des Modells eingegangen.
 
 \subsection{Entstehung}
 
-bibba \cite[spage 69]{1}
+Das Kermack-McKendrick Modell ist eine Klassische Ausführung des \textbf{SIR-Modells} von den gleichnamigen Infektionsepidemiologen OPEN
+why used => einfach anpassbar
 
 %------------------------------------------------
 
-\subsection{Funktion}
+\subsection{Voraussetzungen}
+
+Die erste Bedingung für das SIR-Modell ist die Aufteilung der Gesamtbevölkerung \textit{N} In drei Kategorien:
+
+\begin{itemize}
+	\item \textit{S}: Suszeptibel (engl. Susceptible)
+	\item \textit{I}: Infiziert (engl. Infected)
+	\item \textit{R}: Entfernt (engl. Removed)\\
+	\small \textsl{Keine Eindeutigen Fachtermini vorhanden}
+\end{itemize}
+\normalsize
+
+Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten und gleichzeitig Infektiösen und (\textit{R}) alle Genesenen oder verstorbenen beinhaltet.  Zu beachten ist das sich Individuen jeweils immer nur in Einer Gruppe befinden können und sich Individuen der Gruppe 
+(\textit{R}) kein weiteres mal Infizieren können. \cite[vgl.]{4}
+Das Modell wird von nur zwei Parametern alpha (\textalpha) und beta (\textbeta) Beeinflusst. 
+\textalpha \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Gruppe in die Infizierte Gruppe übergehen. 
+\textbeta \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Gruppe \textit{I} sich erholt oder verstirbt.
+
+Es wird davon ausgegangen das \textit{N}, \textalpha, \textbeta \space Konstant sind.
 
 %------------------------------------------------
 
-\subsection{Verlauf}
+\subsection{Anwendung}
 
 %----------------------------------------------------------------------------------------
 
-\section{Aufbau}
+\newpage
+\section{Mathematischer Aufbau}
 
-\subsection{S I R N}
+\textit{N} kann jetzt zu jeder Zeit (\textit{t}) folgendermaßen definiert werden: \cite{3}
 
-\begin{align} 
-	\label{eq:bayes}
-	\begin{split}
-		P(A|B) = \frac{P(B|A)P(A)}{P(B)}
-	\end{split}					
-\end{align}
+
+$$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\normalsize $$
+
+
+\subsection{Drei Differentialgleichungen}
 
 %------------------------------------------------
 
-\subsection{Alpha Beta}
-
-\begin{align} 
-	\begin{split}
-		(x+y)^3 &= (x+y)^2(x+y)\\
-		&=(x^2+2xy+y^2)(x+y)\\
-		&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
-		&=x^3+3x^2y+3xy^2+y^3
-	\end{split}					
-\end{align}
+\subsection{Basisreproduktionszahl}
 
 %------------------------------------------------
 

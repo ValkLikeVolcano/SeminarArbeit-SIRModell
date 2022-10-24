@@ -1,18 +1,18 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{}%
-\contentsline {section}{\numberline {2}Das SIR-Modell}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Entstehung}{1}{}%
-\contentsline {subsection}{\numberline {2.2}Funktion}{1}{}%
-\contentsline {subsection}{\numberline {2.3}Verlauf}{1}{}%
-\contentsline {section}{\numberline {3}Aufbau}{1}{}%
-\contentsline {subsection}{\numberline {3.1}S I R N}{1}{}%
-\contentsline {subsection}{\numberline {3.2}Alpha Beta}{1}{}%
-\contentsline {subsection}{\numberline {3.3}Varianten}{1}{}%
-\contentsline {subsection}{\numberline {3.4}Einflussfaktoren}{1}{}%
-\contentsline {section}{\numberline {4}Fallbeispiele}{1}{}%
-\contentsline {subsection}{\numberline {4.1}Covid 19}{1}{}%
-\contentsline {subsection}{\numberline {4.2}Malaria oder Ebola Oder so}{1}{}%
-\contentsline {section}{\numberline {5}Fazit}{1}{}%
-\contentsline {section}{\numberline {6}Anhang}{2}{}%
-\contentsline {section}{\nonumberline Literatur}{3}{}%
+\contentsline {section}{\numberline {2}Das SIR-Modell}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Entstehung}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Voraussetzungen}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Anwendung}{2}{}%
+\contentsline {section}{\numberline {3}Mathematischer Aufbau}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Drei Differentialgleichungen}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Basisreproduktionszahl}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Varianten}{3}{}%
+\contentsline {subsection}{\numberline {3.4}Einflussfaktoren}{3}{}%
+\contentsline {section}{\numberline {4}Fallbeispiele}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Covid 19}{3}{}%
+\contentsline {subsection}{\numberline {4.2}Malaria oder Ebola Oder so}{3}{}%
+\contentsline {section}{\numberline {5}Fazit}{3}{}%
+\contentsline {section}{\numberline {6}Anhang}{4}{}%
+\contentsline {section}{\nonumberline Literatur}{5}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

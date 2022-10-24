@@ -19,33 +19,63 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{1}{book}{}
+    \entry{4}{book}{}
       \name{author}{1}{}{%
-        {{hash=8df2de899b8a8e70748c8297d163af2b}{%
-           family={Hellwig},
-           familyi={H\bibinitperiod},
-           given={Marcus},
-           giveni={M\bibinitperiod}}}%
+        {{hash=45aa047365153ce73b8b360290476306}{%
+           family={Faris},
+           familyi={F\bibinitperiod},
+           given={William\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Wiesbaden}%
+        {Arizona}%
       }
       \list{publisher}{1}{%
-        {Springer Vieweg}%
+        {arxiv.org}%
       }
-      \strng{namehash}{8df2de899b8a8e70748c8297d163af2b}
-      \strng{fullhash}{8df2de899b8a8e70748c8297d163af2b}
-      \strng{bibnamehash}{8df2de899b8a8e70748c8297d163af2b}
-      \strng{authorbibnamehash}{8df2de899b8a8e70748c8297d163af2b}
-      \strng{authornamehash}{8df2de899b8a8e70748c8297d163af2b}
-      \strng{authorfullhash}{8df2de899b8a8e70748c8297d163af2b}
-      \field{labelalpha}{Hel22}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \strng{namehash}{45aa047365153ce73b8b360290476306}
+      \strng{fullhash}{45aa047365153ce73b8b360290476306}
+      \strng{bibnamehash}{45aa047365153ce73b8b360290476306}
+      \strng{authorbibnamehash}{45aa047365153ce73b8b360290476306}
+      \strng{authornamehash}{45aa047365153ce73b8b360290476306}
+      \strng{authorfullhash}{45aa047365153ce73b8b360290476306}
+      \field{labelalpha}{Far21}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{3658364750}
-      \field{title}{SIR - Modell durch eine neue Dichte unterst�tzt: Handlungsdokument f�r ein angepasstes COVID � Management}
+      \field{title}{The SIR model of an epidemic}
+      \field{year}{2021}
+    \endentry
+    \entry{3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6a7097e8d3ad0107b8eaf7bd8e7ecfb2}{%
+           family={Rahul\bibnamedelima Saxena},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Vikrant\bibnamedelima Bhateja},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           suffix={Mahipal\bibnamedelima Jadeja},
+           suffixi={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lucknow}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \strng{fullhash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \strng{bibnamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \strng{authorbibnamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \strng{authornamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \strng{authorfullhash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
+      \field{labelalpha}{Rah22}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-981-19-4174-0}
+      \field{title}{Exploring Susceptible-Infectious-Recovered (SIR) Model for Covid-19 Investigation}
       \field{year}{2022}
     \endentry
   \enddatalist
