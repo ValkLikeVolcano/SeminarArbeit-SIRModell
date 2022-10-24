@@ -1,0 +1,137 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{scrartcl} % Font size
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont\normalsize
+	\vspace{200pt}
+	\textsc{Valentin Heider Gymnasium}\\
+	\begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\centering
+	\includegraphics[width=0.5\columnwidth]{VHGLogo.jpg} 
+	\end{figure}
+	\vspace{25pt}\\
+	
+	\rule{\linewidth}{0.5pt}\\
+	\vspace{20pt}
+	{\huge Das SIR - Modell}\\
+	\vspace{12pt}
+	\rule{\linewidth}{2pt}\\
+	\vspace{20pt}
+	{\Large W Seminar Mathematik:}\\
+	\vspace{12pt}\\
+	{\Large Chaos, Fraktale und andere mathematische Faszinationen}\\
+	\vspace{15pt}\\
+}
+
+\author{\LARGE Nicolas Martin} % Your name
+
+\date{\normalsize 8.11.2022} % Today's date (\today) or a custom date
+
+\begin{document}
+
+\pagenumbering{Roman}
+
+\maketitle % Print the title
+\newpage
+
+\doublespacing
+\tableofcontents
+\onehalfspacing
+\newpage
+
+%----------------------------------------------------------------------------------------
+
+\section{Einleitung}
+\pagenumbering{arabic}
+
+\begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\centering
+	\includegraphics[width=0.5\columnwidth]{swallow.jpg} % Example image
+	\caption{European swallow.}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+
+\section{Das SIR-Modell}
+
+\subsection{Entstehung}
+
+bibba \cite[spage 69]{1}
+
+%------------------------------------------------
+
+\subsection{Funktion}
+
+%------------------------------------------------
+
+\subsection{Verlauf}
+
+%----------------------------------------------------------------------------------------
+
+\section{Aufbau}
+
+\subsection{S I R N}
+
+\begin{align} 
+	\label{eq:bayes}
+	\begin{split}
+		P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+	\end{split}					
+\end{align}
+
+%------------------------------------------------
+
+\subsection{Alpha Beta}
+
+\begin{align} 
+	\begin{split}
+		(x+y)^3 &= (x+y)^2(x+y)\\
+		&=(x^2+2xy+y^2)(x+y)\\
+		&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
+		&=x^3+3x^2y+3xy^2+y^3
+	\end{split}					
+\end{align}
+
+%------------------------------------------------
+
+\subsection{Varianten}
+
+%------------------------------------------------
+
+\subsection{Einflussfaktoren}
+
+%----------------------------------------------------------------------------------------
+
+\section{Fallbeispiele}
+
+\subsection{Covid 19}
+
+%------------------------------------------------
+
+\subsection{Malaria oder Ebola Oder so}
+
+%----------------------------------------------------------------------------------------
+
+\section{Fazit}
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+\section{Anhang}
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+\setlength{\bibitemsep}{\baselineskip}
+\printbibliography[heading=bibintoc]
+
+\end{document}
