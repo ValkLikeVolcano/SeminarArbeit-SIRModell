@@ -18,7 +18,42 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \datalist[entry]{nty/global//global/global}
+    \entry{7}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ea1c08639070b6fba190378e2e2c86b}{%
+           family={A.\bibnamedelimi G.\bibnamedelimi McKendrick},
+           familyi={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={William\bibnamedelimb Ogilvy\bibnamedelima Kermack},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim K\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society}%
+      }
+      \strng{namehash}{7ea1c08639070b6fba190378e2e2c86b}
+      \strng{fullhash}{7ea1c08639070b6fba190378e2e2c86b}
+      \strng{bibnamehash}{7ea1c08639070b6fba190378e2e2c86b}
+      \strng{authorbibnamehash}{7ea1c08639070b6fba190378e2e2c86b}
+      \strng{authornamehash}{7ea1c08639070b6fba190378e2e2c86b}
+      \strng{authorfullhash}{7ea1c08639070b6fba190378e2e2c86b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A contribution to the mathematical theory of epidemics}
+      \field{year}{1927}
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/10.1098/rspa.1927.0118
+      \endverb
+    \endentry
     \entry{4}{book}{}
       \name{author}{1}{}{%
         {{hash=45aa047365153ce73b8b360290476306}{%
@@ -39,7 +74,6 @@
       \strng{authorbibnamehash}{45aa047365153ce73b8b360290476306}
       \strng{authornamehash}{45aa047365153ce73b8b360290476306}
       \strng{authorfullhash}{45aa047365153ce73b8b360290476306}
-      \field{labelalpha}{Far21}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
@@ -67,7 +101,6 @@
       \strng{authorbibnamehash}{de20e3250faecdf1713262a01fe902a4}
       \strng{authornamehash}{de20e3250faecdf1713262a01fe902a4}
       \strng{authorfullhash}{de20e3250faecdf1713262a01fe902a4}
-      \field{labelalpha}{Het89}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -100,7 +133,6 @@
       \strng{authorbibnamehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
       \strng{authornamehash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
       \strng{authorfullhash}{d9c6c510913d48b2f71ba1a77f5ba5f1}
-      \field{labelalpha}{Kra03}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
@@ -113,13 +145,13 @@
     \endentry
     \entry{3}{book}{}
       \name{author}{1}{}{%
-        {{hash=6a7097e8d3ad0107b8eaf7bd8e7ecfb2}{%
-           family={Rahul\bibnamedelima Saxena},
-           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Vikrant\bibnamedelima Bhateja},
-           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
-           suffix={Mahipal\bibnamedelima Jadeja},
-           suffixi={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d97afa58ea4ee9a32b7bda705ad90eae}{%
+           family={Mahipal\bibnamedelimb Jadeja\bibnamedelimb und\bibnamedelimb Vikrant\bibnamedelima Bhateja},
+           familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Rahul\bibnamedelima Saxena},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Lucknow}%
@@ -127,20 +159,48 @@
       \list{publisher}{1}{%
         {Springer}%
       }
-      \strng{namehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \strng{fullhash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \strng{bibnamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \strng{authorbibnamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \strng{authornamehash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \strng{authorfullhash}{6a7097e8d3ad0107b8eaf7bd8e7ecfb2}
-      \field{labelalpha}{Rah22}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \strng{fullhash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \strng{bibnamehash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \strng{authorbibnamehash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \strng{authornamehash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \strng{authorfullhash}{d97afa58ea4ee9a32b7bda705ad90eae}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-981-19-4174-0}
       \field{title}{Exploring Susceptible-Infectious-Recovered (SIR) Model for Covid-19 Investigation}
       \field{year}{2022}
+    \endentry
+    \entry{6}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cf50055fa2035027259215b6a92f4c8b}{%
+           family={O.\bibnamedelimi Diekmann\bibnamedelimb und\bibnamedelimb W.\bibnamedelimi F.\bibnamedelimi de\bibnamedelimb Graaf\bibnamedelimb und\bibnamedelimb A.\bibnamedelimi Pugliese\bibnamedelimb und\bibnamedelimb R.\bibnamedelimi Vermiglio},
+           familyi={O\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={D.\bibnamedelimi Breda},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{cf50055fa2035027259215b6a92f4c8b}
+      \strng{fullhash}{cf50055fa2035027259215b6a92f4c8b}
+      \strng{bibnamehash}{cf50055fa2035027259215b6a92f4c8b}
+      \strng{authorbibnamehash}{cf50055fa2035027259215b6a92f4c8b}
+      \strng{authornamehash}{cf50055fa2035027259215b6a92f4c8b}
+      \strng{authorfullhash}{cf50055fa2035027259215b6a92f4c8b}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biological Dynamics}
+      \field{title}{On the formulation of epidemic models (an appraisal of Kermack and McKendrick)}
+      \field{year}{2012}
+      \field{pages}{103\bibrangedash 117}
+      \range{pages}{15}
     \endentry
   \enddatalist
 \endrefsection

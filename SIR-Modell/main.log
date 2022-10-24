@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  24 OCT 2022 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  24 OCT 2022 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,7 +401,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric-verb.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count331
@@ -511,11 +511,16 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count407
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.bbx' found.
 
-(F:\Utility\MikTex\tex/latex/biblatex/bbx\alphabetic.bbx
-File: alphabetic.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+(F:\Utility\MikTex\tex/latex/biblatex/bbx\numeric-verb.bbx
+File: numeric-verb.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(F:\Utility\MikTex\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -523,22 +528,22 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count408
 \c@bbx:relatedtotal=\count409
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+)))
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
 
-(F:\Utility\MikTex\tex/latex/biblatex/cbx\alphabetic.cbx
-File: alphabetic.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+(F:\Utility\MikTex\tex/latex/biblatex/cbx\numeric-verb.cbx
+File: numeric-verb.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1313,50 +1318,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--66
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 78--87
-
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-5.
-(F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
+3.
+ (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-04.
-LaTeX Font Info:    No file LGRptm.fd. on input line 104.
+02.
+LaTeX Font Info:    No file LGRptm.fd. on input line 102.
 
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 104.
+(Font)              using `LGR/cmr/m/n' instead on input line 102.
 
-<Figures//SIR-model-flowchart.png, id=16, 853.1875pt x 230.8625pt>
+[2]
+<Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-12.
+10.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
+ [3 <./Figures//SIR-model-flowchart.png>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3 <./Figures//SIR-model-flowchart.png>]
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 138.
+LaTeX Font Warning: Command \large invalid in math mode on input line 136.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 138.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 138.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 136.
 
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.149 R_
+        {0}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.150 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 [4] [5] [6] [7]
-Overfull \hbox (28.57318pt too wide) in paragraph at lines 193--193
-[]\T1/ptm/m/n/12 Vikrant Bha-te-ja Ra-hul Sa-xe-na Ma-hi-pal Ja-de-ja. \T1/ptm/
-m/it/12 Ex-plo-ring Susceptible-Infectious-Recovered
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+05.
+ (F:\Utility\MikTex\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (18.04648pt too wide) in paragraph at lines 205--205
+\T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
+er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
+56124. 
  []
 
 [8] (main.aux)
@@ -1368,22 +1389,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20054 strings out of 475385
- 400174 string characters out of 2789572
- 1317015 words of memory out of 3000000
- 41163 multiletter control sequences out of 15000+600000
- 554050 words of font info for 141 fonts, out of 8000000 for 9000
+ 20079 strings out of 475385
+ 400944 string characters out of 2789572
+ 1316533 words of memory out of 3000000
+ 41177 multiletter control sequences out of 15000+600000
+ 555513 words of font info for 146 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgree
-k/grmn1200.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/
-MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/time
-s/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 226652 bytes).
+ <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
+200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pf
+b><F:/Utility/MikTex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/t
+ype1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F
+:/Utility/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type
+1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 258845 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

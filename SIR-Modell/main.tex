@@ -67,23 +67,21 @@ Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden kein
 %----------------------------------------------------------------------------------------
 
 \newpage
-\section{Das SIR-Modell}
+\section{Grundlagen Des SIR-Modells}
 
 Wenn man den Verlauf einer Epidemie von Anfang bis Ende anhand eines Mathematischen Modells beschreiben möchte, ist das \textbf{SIR-Modell} 
 mit nur zwei Parametern und drei Differentialgleichungen in der einfachsten Form ideal, um sich einen groben Überblick zu verschaffen. \cite[vgl.]{4}
 Im diesem Kapitel wird auf den Hintergrund, die Möglichkeiten und Limitierungen und die damit Einhergehenden Möglichkeiten der Anwendung des Modells eingegangen.
 
-\subsection{Entstehung}
+\subsection{Entstehungsgeschichte}
 
-Das Kermack-McKendrick Modell ist eine Klassische Ausführung des \textbf{SIR-Modells} von den gleichnamigen Infektionsepidemiologen CONTINUE
-babab\\
-babababbab\\
-abababaaba\\
-abababab\\
-ababababab\\
-ababababab\\
-babababababbabab\\
-bababababbab\\
+Das \textbf{Kermack-McKendrick Modell} ist die Bekannteste Ausführung des \textbf{SIR-Modells} welches von den Infektionsepidemiologen \textsl{William Ogilvy Kermack} und \textsl{Anderson Gray McKendrick} im Jahr 1927 Im Zusammenhang des Artikels 
+\textsl{"' A contribution to the mathematical theory of epidemics"'} \cite{7}
+im Auftrag der \textsl{"'Royal Society London"'} \cite[s. 1]{6} Entwickelt und Veröffentlicht wurde. \cite[vgl.]{6} \\
+In besagtem schreiben wurde eine These von W.H. Hamer bewiesen, welche besagte das eine Epidemie nicht erst vorbei ist wenn alle suszeptiblen personen Einmal infiziert wurden sondern durch eine \textsl{"'... auf Anzahlen und Dichten basierenden mathematischen Übertragungstheorie"'} \cite[s. 81]{2} bestimmt wird. \cite{2}
+\textsl{"'The paper became a classic in infectious disease epidemiology and has been cited innumerable times"'} \cite[s. 1]{6}
+Seit dem wird das \textbf{SIR-Modell} und Variationen Weltweit verwendet um den Verlauf verschiedenster Infektionen
+wie Beispielsweise Ebola, Masern und Influenza nachzuvollziehen und/oder Vorherzusagen. \cite[vgl. s. 3]{3}
 
 %------------------------------------------------
 
@@ -100,8 +98,8 @@ Die erste Bedingung für das SIR-Modell ist die Aufteilung der Gesamtbevölkerun
 \normalsize
 
 Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten und gleichzeitig Infektiösen und (\textit{R}) alle Genesenen oder verstorbenen beinhaltet.  Zu beachten ist das sich Individuen jeweils immer nur in Einer Gruppe befinden können und sich Individuen der Gruppe 
-(\textit{R}) kein weiteres mal Infizieren können.(vgl. Abb. 2.1) %\cite[vgl.]{4}
-Das Modell wird von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst. 
+(\textit{R}) kein weiteres mal Infizieren können.(vgl. Abb. 2.1) \cite[vgl.]{4}
+Alle Gruppen Interagieren untereinander mit der selben Wahrscheinlichkeit die von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst wird. 
 \textbeta \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Gruppe in die Infizierte Gruppe übergehen. 
 \textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Gruppe \textit{I} sich erholt oder verstirbt.
 
@@ -140,15 +138,27 @@ $$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\nor
 
 \subsection{Drei Differentialgleichungen}
 
+$$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
+$$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I $$
+$$ \frac{\Delta R}{\Delta t} = \gamma I $$
+
 %------------------------------------------------
 
 \subsection{Basisreproduktionszahl}
+
+R_{0}
 
 %------------------------------------------------
 
 \subsection{Varianten}
 
 dynamic vitals
+
+\textnu neugeburt
+
+\textmu tode
+
+\textrho Impfungen
 
 %------------------------------------------------
 
