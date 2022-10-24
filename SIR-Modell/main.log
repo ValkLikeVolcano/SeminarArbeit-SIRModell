@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  24 OCT 2022 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  24 OCT 2022 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -721,27 +721,27 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count419
 \@quotereset=\count420
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 41
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 39
 .
 (F:\Utility\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 \c@lstlisting=\count421
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -768,8 +768,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 
 (F:\Utility\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -827,14 +827,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-6.
+4.
 (F:\Utility\MikTex\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<VHGLogo.jpg, id=1, 272.9077pt x 63.17308pt>
-File: VHGLogo.jpg Graphic file (type jpg)
-<use VHGLogo.jpg>
-Package pdftex.def Info: VHGLogo.jpg  used on input line 46.
+<Figures//VHGLogo.jpg, id=1, 272.9077pt x 63.17308pt>
+File: Figures//VHGLogo.jpg Graphic file (type jpg)
+<use Figures//VHGLogo.jpg>
+Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 44.
 (pdftex.def)             Requested size: 227.62206pt x 52.69003pt.
 
 
@@ -844,7 +844,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \newpage
+l.44 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -857,7 +857,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \newpage
+l.44 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -870,75 +870,69 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \newpage
+l.44 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 46.
+ 44.
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 46.
+ 44.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 46.
+ 44.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 46.
+ 44.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-6.
+4.
 
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
  [1
 
 
-{C:/Users/nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./VHGLogo.jpg
->]
+{C:/Users/nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures//VH
+GLogo.jpg>]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 49.
+ne 47.
 
 (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2]
-<Figures//swallow.jpg, id=11, 1606.0pt x 1069.9975pt>
-File: Figures//swallow.jpg Graphic file (type jpg)
-<use Figures//swallow.jpg>
-Package pdftex.def Info: Figures//swallow.jpg  used on input line 60.
-(pdftex.def)             Requested size: 227.62206pt x 151.64355pt.
- [1 <./Figures//swallow.jpg>] [2] [3]
+ [2] [1] [2]
 
 ! LaTeX Error: Unicode character � (U+FFFD)
                not set up for use with LaTeX.
@@ -947,7 +941,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \printbibliography[heading=bibintoc]
+l.130 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -960,7 +954,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \printbibliography[heading=bibintoc]
+l.130 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -973,21 +967,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \printbibliography[heading=bibintoc]
+l.130 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[4] (main.aux)
+[3] (main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18683 strings out of 475385
- 377376 string characters out of 2789572
+ 18676 strings out of 475385
+ 377347 string characters out of 2789572
  1308033 words of memory out of 3000000
- 39821 multiletter control sequences out of 15000+600000
+ 39815 multiletter control sequences out of 15000+600000
  525073 words of font info for 104 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -997,9 +991,9 @@ type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utilit
 y/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (6 pages, 366238 bytes).
+Output written on main.pdf (5 pages, 193090 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
