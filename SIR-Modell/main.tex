@@ -39,23 +39,24 @@
 \begin{document}
 
 \pagenumbering{Roman}
-
 \maketitle % Print the title
+\thispagestyle{empty}
 \newpage
 
 \doublespacing
 \tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
 \onehalfspacing
 \newpage
 
 %----------------------------------------------------------------------------------------
-
 \section{Einleitung}
 \pagenumbering{arabic}
 
 Das \textsl{Covid-19} Virus hat in den letzten Jahren Eindrucksvoll bewiesen, wie schnell sich eine Epidemie ausbreiten und zur Pandemie werden kann,  
 Sowie welche verheerende Wirkung ebensolche auf die gesamte Bevölkerung und Wirtschaft der Welt haben. 
-Immer wieder teilten Experten in den Medien neue Verhaltens- und Hygieneregelungen mit durch welche die Verbreitung des Virus Vorhergesehen und Verlangsamt werden konnte. Auch Prognosen über die Zukünftige Entwicklung der Pandemie wurden Veröffentlicht. 
+Immer wieder teilten Experten in den Medien neue Verhaltens- und Hygieneregelungen mit, durch welche die Verbreitung des Virus Verlangsamt werden konnte. Auch Prognosen über die Zukünftige Entwicklung der Pandemie wurden Veröffentlicht. 
 Doch wie genau Berechnen Epidemiologen die Entwicklung einer Epidemie um Vorhersagen zu treffen und die geeignetsten Gegenmaßnamen zur Eindämmung einer solchen zu ermitteln?\\
 \\
 Diese Literaturarbeit soll zunächst das \textbf{SIR-Modell} mit allen Voraussetzungen Betrachten, Die Einhergehenden Differenzialgleichungen und die Basisreproduktionszahl Mathematisch Analysieren und unter Betrachtung der Flexibilität des Modells evaluieren. 
@@ -71,23 +72,28 @@ Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden kein
 
 Wenn man den Verlauf einer Epidemie von Anfang bis Ende anhand eines Mathematischen Modells beschreiben möchte, ist das \textbf{SIR-Modell} 
 mit nur zwei Parametern und drei Differentialgleichungen in der einfachsten Form ideal, um sich einen groben Überblick zu verschaffen. \cite[vgl.]{4}
-Im diesem Kapitel wird auf den Hintergrund, die Möglichkeiten und Limitierungen und die damit Einhergehenden Möglichkeiten der Anwendung des Modells eingegangen.
+Im diesem Kapitel wird auf den Hintergrund, die Optionen und Limitierungen und die damit Einhergehenden Möglichkeiten der Anwendung des Modells eingegangen.
 
 \subsection{Entstehungsgeschichte}
 
-Das \textbf{Kermack-McKendrick Modell} ist die Bekannteste Ausführung des \textbf{SIR-Modells} welches von den Infektionsepidemiologen \textsl{William Ogilvy Kermack} und \textsl{Anderson Gray McKendrick} im Jahr 1927 Im Zusammenhang des Artikels 
-\textsl{"' A contribution to the mathematical theory of epidemics"'} \cite{7}
+Das \textbf{Kermack-McKendrick Modell} ist die Bekannteste Ausführung des \textbf{SIR-Modells} welches von den Infektionsepidemiologen \textsl{William Ogilvy Kermack} und \textsl{Anderson Gray McKendrick} im Jahr 1927 Im Zusammenhang mit dem Artikel 
+\textsl{"'A contribution to the mathematical theory of epidemics"'} \cite{7}
 im Auftrag der \textsl{"'Royal Society London"'} \cite[s. 1]{6} Entwickelt und Veröffentlicht wurde. \cite[vgl.]{6} \\
-In besagtem schreiben wurde eine These von W.H. Hamer bewiesen, welche besagte das eine Epidemie nicht erst vorbei ist wenn alle suszeptiblen personen Einmal infiziert wurden sondern durch eine \textsl{"'... auf Anzahlen und Dichten basierenden mathematischen Übertragungstheorie"'} \cite[s. 81]{2} bestimmt wird. \cite{2}
-\textsl{"'The paper became a classic in infectious disease epidemiology and has been cited innumerable times"'} \cite[s. 1]{6}
+
+\textsl{"'The paper became a classic in infectious disease epidemiology and has been cited innumerable times"'} \cite[s. 1]{6} \\
+
+%In besagtem schreiben wurde eine These von W.H. Hamer bewiesen, welche statuiert das eine Epidemie nicht erst dann vorbei ist wenn alle %suszeptiblen personen Einmal infiziert wurden sondern durch eine \textsl{"'... auf Anzahlen und Dichten basierenden mathematischen %Übertragungstheorie"'} \cite[s. 81]{2} bestimmt wird. \cite{2}
 Seit dem wird das \textbf{SIR-Modell} und Variationen Weltweit verwendet um den Verlauf verschiedenster Infektionen
 wie Beispielsweise Ebola, Masern und Influenza nachzuvollziehen und/oder Vorherzusagen. \cite[vgl. s. 3]{3}
+
+%Ross ?
 
 %------------------------------------------------
 
 \subsection{Voraussetzungen}
 
-Die erste Bedingung für das SIR-Modell ist die Aufteilung der Gesamtbevölkerung \textit{N} In drei Kategorien:
+Da das \textbf{SIR Modell} als relativ simpel gilt, kommt es mit einigen Voraussetzungen die erfüllt werden müssen damit es Anwendbar ist.
+Zuerst Muss die Gesamtbevölkerung \textit{N} in drei Kategorien unterteilt werden:
 
 \begin{itemize}
 	\item \textit{S}: Suszeptibel (engl. Susceptible)
@@ -97,11 +103,11 @@ Die erste Bedingung für das SIR-Modell ist die Aufteilung der Gesamtbevölkerun
 \end{itemize}
 \normalsize
 
-Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten und gleichzeitig Infektiösen und (\textit{R}) alle Genesenen oder verstorbenen beinhaltet.  Zu beachten ist das sich Individuen jeweils immer nur in Einer Gruppe befinden können und sich Individuen der Gruppe 
-(\textit{R}) kein weiteres mal Infizieren können.(vgl. Abb. 2.1) \cite[vgl.]{4}
-Alle Gruppen Interagieren untereinander mit der selben Wahrscheinlichkeit die von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst wird. 
-\textbeta \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Gruppe in die Infizierte Gruppe übergehen. 
-\textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Gruppe \textit{I} sich erholt oder verstirbt.
+Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten und \textbf{gleichzeitig} Infektiösen und (\textit{R}) alle Genesenen oder verstorbenen beinhaltet.  Zu beachten ist das sich Individuen jeweils immer nur in Einer Population befinden können und sich Individuen der Population 
+(\textit{R}) kein weiteres mal Infizieren können da sie als Immun Gelten. Hierbei ist es Egal ob das Individuum Genesen oder Verstorben ist.(vgl. Abb. 2.1) \cite[vgl.]{4}
+Alle Populationen Interagieren untereinander mit der selben Wahrscheinlichkeit die von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst wird. 
+\textbeta \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Population in die Infizierte Population übergehen. 
+\textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Population \textit{I} sich erholt oder verstirbt.
 
 Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space Konstant sind.
 
@@ -122,7 +128,7 @@ Dieses Modell wird in \textsl{3.3} Genauer Beschrieben.\\
 Zusätzlich können die Gruppen erweitert oder entfernt werden, was dann zu Modellen wie dem 
 \textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
 
-Ein weiteres Ziel des Modells ist die Bestimmung der Basisreproduktionszahl(siehe \textsl{3.2}), welche angibt ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
+Ein weiteres Ziel des Modells ist die Bestimmung der Basisreproduktionszahl(siehe \textsl{3.2}), welche angibt, ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
 %----------------------------------------------------------------------------------------
 
 \newpage
@@ -183,6 +189,10 @@ epic Explanation
 
 \subsection{Covid 19}
 
+FRAGE: Zitate vgl. 3
+FRAGE: ToC Font, Font In general
+Kopfzeile Fußzeile
+
 %------------------------------------------------
 
 \subsection{Jährliche flu}
@@ -195,6 +205,7 @@ epic Explanation
 
 \newpage
 \section{Anhang}
+\thispagestyle{empty}
 
 dont forget graphic verzeichnis
 
@@ -203,5 +214,6 @@ dont forget graphic verzeichnis
 \newpage
 \setlength{\bibitemsep}{\baselineskip}
 \printbibliography[heading=bibintoc]
+\thispagestyle{empty}
 
 \end{document}
