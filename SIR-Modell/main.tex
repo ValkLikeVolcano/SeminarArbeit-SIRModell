@@ -76,6 +76,14 @@ Im diesem Kapitel wird auf den Hintergrund, die Möglichkeiten und Limitierungen
 \subsection{Entstehung}
 
 Das Kermack-McKendrick Modell ist eine Klassische Ausführung des \textbf{SIR-Modells} von den gleichnamigen Infektionsepidemiologen CONTINUE
+babab\\
+babababbab\\
+abababaaba\\
+abababab\\
+ababababab\\
+ababababab\\
+babababababbabab\\
+bababababbab\\
 
 %------------------------------------------------
 
@@ -92,14 +100,14 @@ Die erste Bedingung für das SIR-Modell ist die Aufteilung der Gesamtbevölkerun
 \normalsize
 
 Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten und gleichzeitig Infektiösen und (\textit{R}) alle Genesenen oder verstorbenen beinhaltet.  Zu beachten ist das sich Individuen jeweils immer nur in Einer Gruppe befinden können und sich Individuen der Gruppe 
-(\textit{R}) kein weiteres mal Infizieren können. (vgl. Abb. 2.1) %\cite[vgl.]{4}
+(\textit{R}) kein weiteres mal Infizieren können.(vgl. Abb. 2.1) %\cite[vgl.]{4}
 Das Modell wird von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst. 
 \textbeta \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Gruppe in die Infizierte Gruppe übergehen. 
 \textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Gruppe \textit{I} sich erholt oder verstirbt.
 
 Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space Konstant sind.
 
-	\begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{SIR-model-flowchart.png} 
 	\caption{SIR Gruppenverteilung}
@@ -109,17 +117,20 @@ Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space Konstant 
 
 \subsection{Anwendung}
 
-Das \textbf{SIR-Modell} in der hier dargestellten Form kann das verhalten einer Epidemie anhand zwei unveränderlicher Parameter Darstellen und zeigt so auf wie lange es braucht, bis eine Bevölkerungsgruppe die Infektion überstanden hat. Auch die menge an Personen, welche bis zum Ende in der Suszeptiblen Gruppe verblieben sind kann ermittelt werden. 
-Worin das \textbf{SIR-Modell} allerdings tatsächlich vielversprechend erscheint ist, das es die Grundlage für komplexere Modelle liefert.
-Es können variablen hinzugefügt oder entfernt werden. So wird beispielsweise in \textsl{"The SIR Model with Vital Dynamics"} \cite[s. 132]{5} durch Geburten und Tode die Gesamtbevölkerung nichtmehr als Konstant Betrachtet.
-Zusätzlich können die Gruppen erweitert werden, was dann zu Modellen wie dem 
-\textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, oder dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist (\textit{E}: Exposed).
+Das \textbf{SIR-Modell} in der hier dargestellten Form kann das verhalten einer Epidemie anhand zwei unveränderlicher Parameter Darstellen und zeigt so auf wie lange es braucht, bis eine Bevölkerungsgruppe die Infektion überstanden hat. Auch die menge an Personen, welche bis zum Ende in der Suszeptiblen Gruppe (\textit{S}) verblieben sind kann ermittelt werden. 
+Worin das \textbf{SIR-Modell} allerdings am vielversprechendsten erscheint ist, das es die Grundlage für komplexere Modelle liefert, welche man präzise auf eine bestimmte Infektion anpassen kann.
+So wird beispielsweise in \textsl{"The SIR Model with Vital Dynamics"} \cite[s. 132]{5} durch hinzufügen von Parametern für Geburten und Tode die Gesamtbevölkerung als Dynamisch Betrachtet, was bereits näher an ein Realbeispiel herankommt.
+Dieses Modell wird in \textsl{3.3} Genauer Beschrieben.\\
+Zusätzlich können die Gruppen erweitert oder entfernt werden, was dann zu Modellen wie dem 
+\textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
 
-Ein Ziel des Modells ist die Bestimmung der Basisreproduktionszahl(siehe 3.2) welche vorgibt ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
+Ein weiteres Ziel des Modells ist die Bestimmung der Basisreproduktionszahl(siehe \textsl{3.2}), welche angibt ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
 %----------------------------------------------------------------------------------------
 
 \newpage
 \section{Mathematischer Aufbau}
+
+Big Ansage jajajaja
 
 \textit{N} kann jetzt zu jeder Zeit (\textit{t}) folgendermaßen definiert werden: \cite{3}
 
@@ -137,28 +148,45 @@ $$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\nor
 
 \subsection{Varianten}
 
+dynamic vitals
+
 %------------------------------------------------
 
 \subsection{Einflussfaktoren}
 
+impfung, distancing, Hygiene, Mutationen
+
+%------------------------------------------------
+
+\subsection{Chaos}
+
+leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
+
 %----------------------------------------------------------------------------------------
 
+\newpage
 \section{Fallbeispiele}
+
+epic Explanation
+
+%------------------------------------------------
 
 \subsection{Covid 19}
 
 %------------------------------------------------
 
-\subsection{Malaria oder Ebola Oder so}
+\subsection{Jährliche flu}
 
 %----------------------------------------------------------------------------------------
-
+\newpage %?
 \section{Fazit}
 
 %----------------------------------------------------------------------------------------
 
 \newpage
 \section{Anhang}
+
+dont forget graphic verzeichnis
 
 %----------------------------------------------------------------------------------------
 
