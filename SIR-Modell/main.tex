@@ -100,8 +100,7 @@ Zuerst Muss die Gesamtbevölkerung \textit{N} in drei Kategorien unterteilt werd
 \begin{itemize}
 	\item \textit{S}: Suszeptibel (engl. Susceptible)
 	\item \textit{I}: Infiziert (engl. Infected)
-	\item \textit{R}: Entfernt (engl. Removed)\\
-	\small \textsl{Keine Eindeutigen Fachtermini vorhanden}
+	\item \textit{R}: Entfernt (engl. Removed) 	%\small \textsl{Keine Eindeutigen Fachtermini vorhanden}
 \end{itemize}
 \normalsize
 
@@ -112,6 +111,8 @@ Alle Populationen Interagieren untereinander mit der selben Wahrscheinlichkeit d
 \textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Population \textit{I} sich erholt oder verstirbt.
 
 Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space Konstant sind.
+
+Zu begin des Modells 
 
 	\begin{figure}[h]
 	\centering
@@ -132,31 +133,41 @@ Dieses Modell wird in \textsl{3.3} Genauer Beschrieben.\\
 Zusätzlich können die Gruppen erweitert oder entfernt werden, was dann zu Modellen wie dem 
 \textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
 
-Eine weiterer Anwendungsgrund des Modells ist die Bestimmung der Basisreproduktionszahl(siehe \textsl{3.2}), welche angibt, ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
+Eine weiterer Anwendungsgrund des Modells ist die Bestimmung der Basisreproduktionszahl (siehe \textsl{3.2}), welche angibt, ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
 So ist das Modell als solches zwar nur als ein Mathematisches Idealverhältnis einer Epidemie von nutzen, doch ist es ein Essenzieller teil der Modernen Infektionsepidemiologie welches von Forschen auf der Ganzen Welt dafür genutzt wird, Virale Krankheiten zu dokumentieren und den Ausbruch in eine Epidemie zu verhindern.\cite[vgl. s.3]{3}
 %----------------------------------------------------------------------------------------
 
 \section{Mathematischer Aufbau}
 
-Big Ansage jajajaja
-
-\textit{N} kann jetzt zu jeder Zeit (\textit{t}) folgendermaßen definiert werden: \cite{3}
-
+Nachdem die Wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind Widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer ebene, woraufhin der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt wird.\\
+\\
+Wenn eine konstante Bevölkerung \textit{N} in drei Gruppen aufgeteilt wird kann \textit{N} jetzt zu jedem Zeitpunkt (\textit{t}) folgendermaßen definiert werden: 
+\cite{3, 4}
 
 $$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\normalsize $$
 
+Während die Modell definierenden Parameter \textbeta\space und \textgamma\space konstant sind, Verändern sich die Größen \textit{S}, \textit{I} und \textit{R} im verlauf von \textit{t}. Man spricht von einem Geschlossenen System.\cite[vgl. s.2]{4}
 
 \subsection{Drei Differentialgleichungen}
+
+Zur Formulierung des Modells wendet man drei Differenzialgleichungen an welche wie folgt Bezeichnet werden: 
+Änderungsrate der Suszeptiblen, Änderungsrate der Infizierten, und Änderungsrate der Entfernten.\cite[s.10]{3}
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I $$
 $$ \frac{\Delta R}{\Delta t} = \gamma I $$
+
+%Initial Values
 
 %------------------------------------------------
 
 \subsection{Basisreproduktionszahl}
 
 R_{0}
+
+%------------------------------------------------
+
+\subsection{start}
 
 %------------------------------------------------
 
