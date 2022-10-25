@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  24 OCT 2022 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  25 OCT 2022 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,7 +1314,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout4 = `main.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 57--67
+Underfull \hbox (badness 10000) in paragraph at lines 59--69
 
  []
 
@@ -1322,53 +1322,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--67
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-9.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+01.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-08.
-LaTeX Font Info:    No file LGRptm.fd. on input line 108.
+10.
+LaTeX Font Info:    No file LGRptm.fd. on input line 110.
 
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 108.
+(Font)              using `LGR/cmr/m/n' instead on input line 110.
 
 [2]
 <Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-16.
+18.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
- [3 <./Figures//SIR-model-flowchart.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 142.
+Overfull \hbox (17.21501pt too wide) in paragraph at lines 135--138
+[]\T1/ptm/m/n/12 Eine wei-te-rer An-wen-dungs-grund des Mo-dells ist die Be-sti
+m-mung der Ba-sis-re-pro-duk-ti-ons-zahl(siehe
+ []
+
+[3 <./Figures//SIR-model-flowchart.png>]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 142.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 146.
 
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.155 R_
+l.159 R_
         {0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1376,18 +1382,18 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 
+l.160 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [4] [5] [6] [7]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-16.
+20.
  (F:\Utility\MikTex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (18.04648pt too wide) in paragraph at lines 216--216
+Overfull \hbox (18.04648pt too wide) in paragraph at lines 220--220
 \T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
 er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
 56124. 
@@ -1418,9 +1424,9 @@ b><F:/Utility/MikTex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/t
 ype1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F
 :/Utility/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type
 1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 258158 bytes).
+Output written on main.pdf (10 pages, 259132 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
