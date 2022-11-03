@@ -76,6 +76,8 @@ Wenn man den Verlauf einer Epidemie von Anfang bis Ende anhand eines Mathematisc
 mit nur zwei Parametern und drei Differentialgleichungen in der einfachsten Form ideal, um sich einen groben Überblick zu verschaffen. \cite[vgl.]{4}
 Im diesem Kapitel wird auf den Hintergrund, die Optionen und Limitierungen und die damit Einhergehenden Möglichkeiten der Anwendung des Modells eingegangen.
 
+%------------------------------------------------
+
 \subsection{Entstehungsgeschichte}
 
 Das \textbf{Kermack-McKendrick Modell} ist die Bekannteste Ausführung des \textbf{SIR-Modells} welches von den Infektionsepidemiologen \textsl{William Ogilvy Kermack} und \textsl{Anderson Gray McKendrick} im Jahr 1927 Im Zusammenhang mit dem Artikel 
@@ -129,38 +131,54 @@ Allerdings bildet das \textbf{SIR-Modell} eine Grundlage für komplexere Modelle
 So wird beispielsweise in \textsl{"The SIR Model with Vital Dynamics"} \cite[s.132]{5} durch hinzufügen von Parametern für Geburten und Tode die Gesamtbevölkerung als Dynamisch Betrachtet, was bereits näher an ein Realbeispiel herankommt.
 Dieses Modell wird in \textsl{3.3} Genauer Beschrieben.\\
 Zusätzlich können die Gruppen erweitert oder entfernt werden, was dann zu Modellen wie dem 
-\textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
-
+\textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht und somit auch für Infektionswellen genutzt werden kann, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
 Eine weiterer Anwendungsgrund des Modells ist die Bestimmung der Basisreproduktionszahl (siehe \textsl{3.2}), welche angibt, ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
 So ist das Modell als solches zwar nur als ein Mathematisches Idealverhältnis einer Epidemie von nutzen, doch ist es ein Essenzieller teil der Modernen Infektionsepidemiologie welches von Forschen auf der Ganzen Welt dafür genutzt wird, Virale Krankheiten zu dokumentieren und den Ausbruch in eine Epidemie zu verhindern. \cite[vgl. s.3]{3}
 %----------------------------------------------------------------------------------------
 
 \section{Mathematischer Aufbau}
 
-Nachdem die Wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind Widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer Ebene, woraufhin der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt wird. Zuerst wird allerdings gezeigt, wie der Verlauf des \textbf{SIR-Modells} graphisch dargestellt werden kann. In einem Koordinatensystem stellt die x-Achse die Zeit meist in Tagen, und die y-Achse die Bevölkerung dar. Drei Graphen zeigen die Änderung der Größe der jeweiligen Population auf. Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen die Größe \textit{N} ergibt.(bgl. Abb. 3.1)
+Nachdem die Wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind Widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer Ebene, woraufhin der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt wird.
+Wenn eine konstante Bevölkerung \textit{N} in drei Gruppen aufgeteilt wird kann \textit{N} jetzt zu jedem Zeitpunkt (\textit{t}) folgendermaßen definiert werden: 
+\cite{3, 4}
+
+$$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\normalsize $$
+
+Während die Modell definierenden Parameter \textbeta\space und \textgamma\space konstant sind, Verändern sich die Größen \textit{S}, \textit{I} und \textit{R} im verlauf von \textit{t}. Man spricht von einem Geschlossenen System.\cite[vgl. s.2]{4}\\
+Das \textbf{SIR-Modell} kann auch graphisch dargestellt werden:
+In einem Koordinatensystem stellt die x-Achse die Zeit meist in Tagen, und die y-Achse die Bevölkerung dar. Drei Graphen zeigen die Änderung der Größe der jeweiligen Populationen auf. Wie diese Graphen berechnet werden wird in 3.1 Angesprochen.
+Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen die Größe \textit{N} ergibt.(vgl. Abb. 3.1)
+Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, wann sie ausstirbt sowie die menge der Individuen die zu keinem Zeitpunkt infiziert wahren.
 
 	\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{SIR-model-graph.png} 
 	\caption{SIR Infektionsverlauf}
 	\end{figure}
-
-Wenn eine konstante Bevölkerung \textit{N} in drei Gruppen aufgeteilt wird kann \textit{N} jetzt zu jedem Zeitpunkt (\textit{t}) folgendermaßen definiert werden: 
-\cite{3, 4}
-
-$$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\normalsize $$
-
-Während die Modell definierenden Parameter \textbeta\space und \textgamma\space konstant sind, Verändern sich die Größen \textit{S}, \textit{I} und \textit{R} im verlauf von \textit{t}. Man spricht von einem Geschlossenen System.\cite[vgl. s.2]{4}
+	
+%------------------------------------------------
 
 \subsection{Drei Differentialgleichungen}
 
-Zur Formulierung des Modells wendet man drei Differenzialgleichungen an welche wie folgt Bezeichnet werden: 
-Änderungsrate der Suszeptiblen, Änderungsrate der Infizierten, und Änderungsrate der Entfernten.\cite[s.10]{3}
-Die Erste Gleichung, die Änderung der Suszeptiblen 
+Zur Formulierung des Modells werden drei Differenzialgleichungen verwendet, welche die Änderungsrate der jeweiligen Population beschreiben, also wie schnell sich Individuen der Suszeptiblen Gruppe in die Infizierte,und von der Infizierten zu der Entfernten Population übergehen. Es gibt einige Variationen dieser Gleichungen welche beispielsweise den Kontakt von Individuen unterschiedlicher Populationen mit einbeziehen, diese Arbeit verwenden allerdings die von Kermack und McKendrick aufgestellten Versionen welche folgendermaßen aufgestellt werden:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
+\begin{center}
+Änderungsrate der Suszeptiblen Population
+\end{center}
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I $$
+\begin{center}
+Änderungsrate der Infizierten Population
+\end{center}
 $$ \frac{\Delta R}{\Delta t} = \gamma I $$
+\begin{center}
+Änderungsrate der Entfernten Population \cite[s.10]{3}
+\end{center}
+
+Die Suszeptible und die Infizierte Population haben den Parameter \textbeta \space gemeinsam. \textit{S} wird mit der rate \textbeta \space eine Menge an Individuen abgezogen (minus) und dann \textit{I} hinzugefügt. Das selbe Prinzip ist auf \textit{I} und \textit{R} durch den Faktor \textgamma \space anwendbar.\cite{3, 4}
+Erkennbar ist, das \textit{S} und \textit{R} von \textit{I} beeinflusst werden, welche als einzige Gleichung beide Parameter beinhaltet. So ist es möglich \textit{R}(\textit{t}) jederzeit durch das Subtrahieren der mengen \textit{S}(\textit{t}) und \textit{I}(\textit{t}) von der Gesamtmenge \textit{N} = 1 zu erhalten: \cite[vgl. s. 128]{5}
+
+$$ R_{(t)} = 1 - S_{(t)} - I_{(t)} $$
 
 %Initial Values
 
@@ -172,6 +190,7 @@ R_{0}
 
 %------------------------------------------------
 
+\newpage
 \subsection{Beginn}
 
 S = 1 
@@ -190,12 +209,14 @@ dynamic vitals
 
 %------------------------------------------------
 
+\newpage
 \subsection{Einflussfaktoren}
 
 impfung, distancing, Hygiene, Mutationen
 
 %------------------------------------------------
 
+\newpage
 \subsection{Chaos}
 
 leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
@@ -216,7 +237,7 @@ FRAGE: ToC Font, Font In general
 Kopfzeile Fußzeile
 
 %------------------------------------------------
-
+\newpage
 \subsection{Jährliche flu}
 
 %----------------------------------------------------------------------------------------

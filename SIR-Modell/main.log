@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1326,99 +1326,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--69
 LaTeX Warning: Citation '4' on page 2 undefined on input line 76.
 
 
-LaTeX Warning: Citation '7' on page 2 undefined on input line 82.
-
-
-LaTeX Warning: Citation '6' on page 2 undefined on input line 83.
-
-
-LaTeX Warning: Citation '6' on page 2 undefined on input line 83.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--84
-
- []
+LaTeX Warning: Citation '7' on page 2 undefined on input line 84.
 
 
 LaTeX Warning: Citation '6' on page 2 undefined on input line 85.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+LaTeX Warning: Citation '6' on page 2 undefined on input line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
 
-LaTeX Warning: Citation '3' on page 2 undefined on input line 89.
+LaTeX Warning: Citation '6' on page 2 undefined on input line 87.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+LaTeX Warning: Citation '3' on page 2 undefined on input line 91.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-01.
+03.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation '4' on page 2 undefined on input line 108.
+LaTeX Warning: Citation '4' on page 2 undefined on input line 110.
 
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-09.
-LaTeX Font Info:    No file LGRptm.fd. on input line 109.
+11.
+LaTeX Font Info:    No file LGRptm.fd. on input line 111.
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 109.
+(Font)              using `LGR/cmr/m/n' instead on input line 111.
 
 [2]
 <Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-17.
+19.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
 
 
-LaTeX Warning: Citation '5' on page 3 undefined on input line 129.
+LaTeX Warning: Citation '5' on page 3 undefined on input line 131.
 
 
-LaTeX Warning: Citation '2' on page 3 undefined on input line 134.
+LaTeX Warning: Citation '2' on page 3 undefined on input line 135.
 
 
-LaTeX Warning: Citation '3' on page 3 undefined on input line 135.
+LaTeX Warning: Citation '3' on page 3 undefined on input line 136.
 
 [3 <./Figures//SIR-model-flowchart.png>]
+
+LaTeX Warning: Citation '3' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation '4' on page 4 undefined on input line 143.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 145.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 145.
+
+
+
+LaTeX Warning: Citation '4' on page 4 undefined on input line 147.
+
 <Figures//SIR-model-graph.png, id=26, 741.77126pt x 396.48125pt>
 File: Figures//SIR-model-graph.png Graphic file (type png)
 <use Figures//SIR-model-graph.png>
-Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 144.
+Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 155.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
-
-
-LaTeX Warning: Citation '3' on page 4 undefined on input line 149.
-
-
-LaTeX Warning: Citation '4' on page 4 undefined on input line 149.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 151.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
-
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 151.
-
-
-
-LaTeX Warning: Citation '4' on page 4 undefined on input line 153.
-
-
-LaTeX Warning: Citation '3' on page 4 undefined on input line 158.
-
 [4 <./Figures//SIR-model-graph.png>]
+
+LaTeX Warning: Citation '3' on page 5 undefined on input line 175.
+
+
+LaTeX Warning: Citation '3' on page 5 undefined on input line 178.
+
+
+LaTeX Warning: Citation '4' on page 5 undefined on input line 178.
+
+
+LaTeX Warning: Citation '5' on page 5 undefined on input line 179.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.171 R_
+l.189 R_
         {0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1426,14 +1434,14 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.172 
+l.190 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[5] [6] [7] [8]
+[5] [6] [7] [8] [9] [10] [11] [12]
 
-LaTeX Warning: Empty bibliography on input line 238.
+LaTeX Warning: Empty bibliography on input line 259.
 
 (main.aux)
 
@@ -1467,9 +1475,9 @@ ts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:
 urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Uti
 lity/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw
 /times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 270014 bytes).
+Output written on main.pdf (14 pages, 272925 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

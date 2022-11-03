@@ -7,13 +7,13 @@
 \contentsline {section}{\numberline {3}Mathematischer Aufbau}{4}{}%
 \contentsline {subsection}{\numberline {3.1}Drei Differentialgleichungen}{5}{}%
 \contentsline {subsection}{\numberline {3.2}Basisreproduktionszahl}{5}{}%
-\contentsline {subsection}{\numberline {3.3}Beginn}{5}{}%
-\contentsline {subsection}{\numberline {3.4}Varianten}{5}{}%
-\contentsline {subsection}{\numberline {3.5}Einflussfaktoren}{5}{}%
-\contentsline {subsection}{\numberline {3.6}Chaos}{5}{}%
-\contentsline {section}{\numberline {4}Fallbeispiele}{6}{}%
-\contentsline {subsection}{\numberline {4.1}Covid 19}{6}{}%
-\contentsline {subsection}{\numberline {4.2}Jährliche flu}{6}{}%
-\contentsline {section}{\numberline {5}Fazit}{7}{}%
-\contentsline {section}{\numberline {6}Anhang}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Beginn}{6}{}%
+\contentsline {subsection}{\numberline {3.4}Varianten}{6}{}%
+\contentsline {subsection}{\numberline {3.5}Einflussfaktoren}{7}{}%
+\contentsline {subsection}{\numberline {3.6}Chaos}{8}{}%
+\contentsline {section}{\numberline {4}Fallbeispiele}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Covid 19}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Jährliche flu}{10}{}%
+\contentsline {section}{\numberline {5}Fazit}{11}{}%
+\contentsline {section}{\numberline {6}Anhang}{12}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

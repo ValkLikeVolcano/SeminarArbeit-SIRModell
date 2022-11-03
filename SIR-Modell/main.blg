@@ -1,9 +1,9 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[128] biber-MSWIN64:340> INFO - === 
-[177] Biber.pm:418> INFO - Reading 'main.bcf'
-[300] Biber.pm:978> INFO - Found 6 citekeys in bib section 0
-[320] Biber.pm:4401> INFO - Processing section 0
-[334] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[390] bibtex.pm:1713> INFO - LaTeX decoding ...
-[404] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[145] biber-MSWIN64:340> INFO - === 
+[201] Biber.pm:418> INFO - Reading 'main.bcf'
+[332] Biber.pm:978> INFO - Found 6 citekeys in bib section 0
+[351] Biber.pm:4401> INFO - Processing section 0
+[365] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[448] bibtex.pm:1713> INFO - LaTeX decoding ...
+[459] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
