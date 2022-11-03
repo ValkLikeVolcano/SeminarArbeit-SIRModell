@@ -54,7 +54,7 @@
 \section{Einleitung}
 \pagenumbering{arabic}
 
-%GRENZWERTE DES GEBIETS
+%GRENZWERTE DES GEBIETS WITERE BEKANNE EPIDEMIEN(rubella chickenpox influenza)
 
 Das \textsl{Covid-19} Virus hat in den letzten Jahren Eindrucksvoll bewiesen, wie schnell sich eine Epidemie ausbreiten und zur Pandemie werden kann,  
 Sowie welche verheerende Wirkung ebensolche auf die gesamte Bevölkerung und Wirtschaft der Welt haben. 
@@ -158,9 +158,15 @@ Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, 
 	
 %------------------------------------------------
 
-\subsection{Drei Differentialgleichungen}
+\subsection{Variablen des SIR Modells}
 
-Zur Formulierung des Modells werden drei Differenzialgleichungen verwendet, welche die Änderungsrate der jeweiligen Population beschreiben, also wie schnell sich Individuen der Suszeptiblen Gruppe in die Infizierte,und von der Infizierten zu der Entfernten Population übergehen. Es gibt einige Variationen dieser Gleichungen welche beispielsweise den Kontakt von Individuen unterschiedlicher Populationen mit einbeziehen, diese Arbeit verwenden allerdings die von Kermack und McKendrick aufgestellten Versionen welche folgendermaßen aufgestellt werden:
+Die abhängigen Variablen \textit{S} = \textit{S}(t), \textit{I} = \textit{I}(t) und \textit{R} = \textit{R}(t) stellen die menge an Individuen in der jeweiligen Gruppe zu einem Zeitpunkt \textit{t} dar. Wenn diese nun durch die Konstante \textit{N} geteilt werden ergeben sich die neuen variablen \textit{s}(t), \textit{i}(t) und \textit{r}(t), welche die Änderung einer Population in Abhängigkeit zu einem Zeitpunkt \textit{t} angeben.
+
+Zur Formulierung des Modells werden drei Differenzialgleichungen verwendet, welche die Änderungsrate der jeweiligen Population beschreiben, also wie schnell sich Individuen der Suszeptiblen Gruppe in die Infizierte,und von der Infizierten zu der Entfernten Population übergehen.
+
+Diese Arbeit verwendet die von Kermack und McKendrick aufgestellten Versionen welche folgendermaßen aufgestellt werden:\cite[s.10]{3}
+
+$$  $$
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
 \begin{center}
@@ -172,7 +178,7 @@ $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I $$
 \end{center}
 $$ \frac{\Delta R}{\Delta t} = \gamma I $$
 \begin{center}
-Änderungsrate der Entfernten Population \cite[s.10]{3}
+Änderungsrate der Entfernten Population \cite{7}
 \end{center}
 
 Die Suszeptible und die Infizierte Population haben den Parameter \textbeta \space gemeinsam. \textit{S} wird mit der rate \textbeta \space eine Menge an Individuen abgezogen (minus) und dann \textit{I} hinzugefügt. Das selbe Prinzip ist auf \textit{I} und \textit{R} durch den Faktor \textgamma \space anwendbar.\cite{3, 4}

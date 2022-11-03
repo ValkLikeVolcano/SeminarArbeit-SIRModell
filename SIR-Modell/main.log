@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 14:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1412,21 +1412,24 @@ Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 155.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
 [4 <./Figures//SIR-model-graph.png>]
 
-LaTeX Warning: Citation '3' on page 5 undefined on input line 175.
+LaTeX Warning: Citation '3' on page 5 undefined on input line 167.
 
 
-LaTeX Warning: Citation '3' on page 5 undefined on input line 178.
+LaTeX Warning: Citation '7' on page 5 undefined on input line 181.
 
 
-LaTeX Warning: Citation '4' on page 5 undefined on input line 178.
+LaTeX Warning: Citation '3' on page 5 undefined on input line 184.
 
 
-LaTeX Warning: Citation '5' on page 5 undefined on input line 179.
+LaTeX Warning: Citation '4' on page 5 undefined on input line 184.
+
+
+LaTeX Warning: Citation '5' on page 5 undefined on input line 185.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.189 R_
+l.195 R_
         {0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1434,14 +1437,14 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.190 
+l.196 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [5] [6] [7] [8] [9] [10] [11] [12]
 
-LaTeX Warning: Empty bibliography on input line 259.
+LaTeX Warning: Empty bibliography on input line 265.
 
 (main.aux)
 
@@ -1475,7 +1478,7 @@ ts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:
 urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Uti
 lity/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw
 /times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 272925 bytes).
+Output written on main.pdf (14 pages, 273631 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
