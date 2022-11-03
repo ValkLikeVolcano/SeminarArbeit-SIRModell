@@ -5,10 +5,10 @@
 \contentsline {subsection}{\numberline {2.2}Voraussetzungen}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Anwendung}{3}{}%
 \contentsline {section}{\numberline {3}Mathematischer Aufbau}{4}{}%
-\contentsline {subsection}{\numberline {3.1}Drei Differentialgleichungen}{4}{}%
-\contentsline {subsection}{\numberline {3.2}Basisreproduktionszahl}{4}{}%
-\contentsline {subsection}{\numberline {3.3}start}{4}{}%
-\contentsline {subsection}{\numberline {3.4}Varianten}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Drei Differentialgleichungen}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Basisreproduktionszahl}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Beginn}{5}{}%
+\contentsline {subsection}{\numberline {3.4}Varianten}{5}{}%
 \contentsline {subsection}{\numberline {3.5}Einflussfaktoren}{5}{}%
 \contentsline {subsection}{\numberline {3.6}Chaos}{5}{}%
 \contentsline {section}{\numberline {4}Fallbeispiele}{6}{}%
@@ -16,5 +16,4 @@
 \contentsline {subsection}{\numberline {4.2}Jährliche flu}{6}{}%
 \contentsline {section}{\numberline {5}Fazit}{7}{}%
 \contentsline {section}{\numberline {6}Anhang}{8}{}%
-\contentsline {section}{\nonumberline Literatur}{9}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

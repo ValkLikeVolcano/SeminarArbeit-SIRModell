@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  25 OCT 2022 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,24 +1322,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--69
 
 
 ]
+
+LaTeX Warning: Citation '4' on page 2 undefined on input line 76.
+
+
+LaTeX Warning: Citation '7' on page 2 undefined on input line 82.
+
+
+LaTeX Warning: Citation '6' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation '6' on page 2 undefined on input line 83.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
+
+
+LaTeX Warning: Citation '6' on page 2 undefined on input line 85.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
+
+LaTeX Warning: Citation '3' on page 2 undefined on input line 89.
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 01.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+
+LaTeX Warning: Citation '4' on page 2 undefined on input line 108.
+
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
 09.
 LaTeX Font Info:    No file LGRptm.fd. on input line 109.
-
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
 (Font)              using `LGR/cmr/m/n' instead on input line 109.
@@ -1349,30 +1370,55 @@ LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-19.
+17.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
- [3 <./Figures//SIR-model-flowchart.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--146
-
- []
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 147.
+LaTeX Warning: Citation '5' on page 3 undefined on input line 129.
+
+
+LaTeX Warning: Citation '2' on page 3 undefined on input line 134.
+
+
+LaTeX Warning: Citation '3' on page 3 undefined on input line 135.
+
+[3 <./Figures//SIR-model-flowchart.png>]
+<Figures//SIR-model-graph.png, id=26, 741.77126pt x 396.48125pt>
+File: Figures//SIR-model-graph.png Graphic file (type png)
+<use Figures//SIR-model-graph.png>
+Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 144.
+(pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
+
+
+LaTeX Warning: Citation '3' on page 4 undefined on input line 149.
+
+
+LaTeX Warning: Citation '4' on page 4 undefined on input line 149.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 151.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 147.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 151.
 
 
+
+LaTeX Warning: Citation '4' on page 4 undefined on input line 153.
+
+
+LaTeX Warning: Citation '3' on page 4 undefined on input line 158.
+
+[4 <./Figures//SIR-model-graph.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.166 R_
+l.171 R_
         {0}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1380,51 +1426,50 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.167 
+l.172 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4] [5] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-31.
- (F:\Utility\MikTex\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (18.04648pt too wide) in paragraph at lines 231--231
-\T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
-er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
-56124. 
- []
+[5] [6] [7] [8]
 
-[9] (main.aux)
+LaTeX Warning: Empty bibliography on input line 238.
+
+(main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20064 strings out of 475385
- 400238 string characters out of 2789572
- 1315533 words of memory out of 3000000
- 41163 multiletter control sequences out of 15000+600000
- 551082 words of font info for 143 fonts, out of 8000000 for 9000
+ 20001 strings out of 475385
+ 398618 string characters out of 2789572
+ 1316371 words of memory out of 3000000
+ 41103 multiletter control sequences out of 15000+600000
+ 550769 words of font info for 142 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pf
-b><F:/Utility/MikTex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/t
-ype1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F
-:/Utility/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type
-1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 260215 bytes).
+{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:
+/Utility/MikTex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/
+urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Uti
+lity/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw
+/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 270014 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

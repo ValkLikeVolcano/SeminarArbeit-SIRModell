@@ -1,1 +1,2 @@
 flowchart - https://www.researchgate.net/figure/SIR-model-flowchart_fig8_318394911
+graph - https://www.davidketcheson.info/assets/img/covid19/01_1.png

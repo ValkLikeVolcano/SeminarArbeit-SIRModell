@@ -54,7 +54,7 @@
 \section{Einleitung}
 \pagenumbering{arabic}
 
-GRENZWERTE DES GEBIETS
+%GRENZWERTE DES GEBIETS
 
 Das \textsl{Covid-19} Virus hat in den letzten Jahren Eindrucksvoll bewiesen, wie schnell sich eine Epidemie ausbreiten und zur Pandemie werden kann,  
 Sowie welche verheerende Wirkung ebensolche auf die gesamte Bevölkerung und Wirtschaft der Welt haben. 
@@ -63,7 +63,7 @@ Doch wie genau Berechnen Epidemiologen die Entwicklung einer Epidemie um Vorhers
 \\
 Diese Literaturarbeit soll zunächst das \textbf{SIR-Modell} mit allen Voraussetzungen Betrachten, Die Einhergehenden Differenzialgleichungen und die Basisreproduktionszahl Mathematisch Analysieren und unter Betrachtung der Flexibilität des Modells evaluieren. 
 Des weiteren veranschaulicht die Arbeit das Mathematische Chaos des Modells 
-ferner welche Veränderungen mit verschiedenen Änderungen der Formeln und Variablen Einhergehen. 
+ferner welche Veränderungen mit verschiedenen Abwandlungen der Formeln und Variablen Einhergehen. 
 Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit  HIER FALL EINFÜGEN verglichen werden. 
 Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden keine Abweichungen des Modells im Detail Besprochen. 
 
@@ -109,10 +109,8 @@ Wobei (\textit{S}) alle Infizierbaren Individuen, (\textit{I}) alle Infizierten 
 Alle Populationen Interagieren untereinander mit der selben Wahrscheinlichkeit die von nur zwei Parametern beta (\textbeta) und gamma (\textgamma) Beeinflusst wird. 
 \textbeta \space steht hier für die Übertragungsrate (engl. transmission rate) welche angibt, wie schnell Individuen der Suszeptiblen Population in die Infizierte Population übergehen. 
 \textgamma \space hingegen stellt hier die Erholungsrate (engl. recovery rate) dar, und gibt an wie schnell die Population \textit{I} sich erholt oder verstirbt.
-
-Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space Konstant sind.
-
-Zu begin des Modells 
+Es wird davon ausgegangen das \textit{N}, \textbeta, \textgamma \space \textbf{Konstant} und \textbf{Positiv} sind sind.
+Zu Beginn der Epidemie sei die Menge der Population \textsl{R} gleich Null, die Menge \textsl{S} ungefähr \textit{N} und die Menge \textit{I} ungefähr Null (Mindestens ein Individuum Infiziert), dar das \textbf{SIR-Modell} von einer neuen Infektion ausgeht, zu welcher am Anfang keine Immunität existiert.
 
 	\begin{figure}[h]
 	\centering
@@ -125,8 +123,8 @@ Zu begin des Modells
 \subsection{Anwendung}
 
 Das \textbf{SIR-Modell} in der hier dargestellten Form kann das verhalten einer Epidemie anhand zwei unveränderlicher Parameter Darstellen und zeigt so auf wie lange es braucht, bis eine Bevölkerungsgruppe die Infektion überstanden hat. Auch die menge an Personen, welche bis zum Ende in der Suszeptiblen Gruppe (\textit{S}) verblieben sind kann ermittelt werden. 
-Eine große Limitierung des Modells findet sich in der Tatsache, das es durch den Einfachen Aufbau mit wenigen Parametern und Unrealistischen Vorraussetzungen wie einer konstanten Bevölkerung oder der direkten Infektiösität von Individuen nur einen Ungefähren verlauf, jedoch keine präzise noch detaillierte Auskunft über Realszenarien bietet.
-%Wellen
+Eine große Limitierung des Modells findet sich in der Tatsache, das es durch den Einfachen Aufbau mit wenigen Parametern und Unrealistischen Voraussetzungen wie einer konstanten Bevölkerung oder der direkten Infektiösität von Individuen nur einen Ungefähren verlauf, jedoch keine präzise noch detaillierte Auskunft über Realszenarien bietet.
+Durch die Annahme das zu beginn keine Immunität existiert, und die Parameter als konstant betrachtet werden ist das Modell des weiteren nicht zur Berechnung von Infektionswellen geeignet.
 Allerdings bildet das \textbf{SIR-Modell} eine Grundlage für komplexere Modelle, welche für bestimmte Infektionen und Umstände angepasst werden, und somit detailreiche Prognosen sowie Berichte über Die Entwicklung Bereitstellen können.
 So wird beispielsweise in \textsl{"The SIR Model with Vital Dynamics"} \cite[s.132]{5} durch hinzufügen von Parametern für Geburten und Tode die Gesamtbevölkerung als Dynamisch Betrachtet, was bereits näher an ein Realbeispiel herankommt.
 Dieses Modell wird in \textsl{3.3} Genauer Beschrieben.\\
@@ -134,13 +132,19 @@ Zusätzlich können die Gruppen erweitert oder entfernt werden, was dann zu Mode
 \textbf{SIRS-Modell}, welches eine erneute Infektion ermöglicht, dem \textbf{SEIR-Modell}, welches eine Personengruppe hinzufügt die Infiziert wurde, jedoch noch nicht ansteckend ist(\textit{E}: Exposed) oder dem \textbf{SI-Modell}, in welchem Individuen keine Immunität aufbauen, führen kann.
 
 Eine weiterer Anwendungsgrund des Modells ist die Bestimmung der Basisreproduktionszahl (siehe \textsl{3.2}), welche angibt, ob sich eine Infektion zu einer Epidemie entwickelt, sich Endemisch hält oder auf Dauer ausstirbt. \cite[vgl.]{2}
-So ist das Modell als solches zwar nur als ein Mathematisches Idealverhältnis einer Epidemie von nutzen, doch ist es ein Essenzieller teil der Modernen Infektionsepidemiologie welches von Forschen auf der Ganzen Welt dafür genutzt wird, Virale Krankheiten zu dokumentieren und den Ausbruch in eine Epidemie zu verhindern.\cite[vgl. s.3]{3}
+So ist das Modell als solches zwar nur als ein Mathematisches Idealverhältnis einer Epidemie von nutzen, doch ist es ein Essenzieller teil der Modernen Infektionsepidemiologie welches von Forschen auf der Ganzen Welt dafür genutzt wird, Virale Krankheiten zu dokumentieren und den Ausbruch in eine Epidemie zu verhindern. \cite[vgl. s.3]{3}
 %----------------------------------------------------------------------------------------
 
 \section{Mathematischer Aufbau}
 
-Nachdem die Wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind Widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer ebene, woraufhin der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt wird.\\
-\\
+Nachdem die Wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind Widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer Ebene, woraufhin der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt wird. Zuerst wird allerdings gezeigt, wie der Verlauf des \textbf{SIR-Modells} graphisch dargestellt werden kann. In einem Koordinatensystem stellt die x-Achse die Zeit meist in Tagen, und die y-Achse die Bevölkerung dar. Drei Graphen zeigen die Änderung der Größe der jeweiligen Population auf. Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen die Größe \textit{N} ergibt.(bgl. Abb. 3.1)
+
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\columnwidth]{SIR-model-graph.png} 
+	\caption{SIR Infektionsverlauf}
+	\end{figure}
+
 Wenn eine konstante Bevölkerung \textit{N} in drei Gruppen aufgeteilt wird kann \textit{N} jetzt zu jedem Zeitpunkt (\textit{t}) folgendermaßen definiert werden: 
 \cite{3, 4}
 
@@ -152,6 +156,7 @@ Während die Modell definierenden Parameter \textbeta\space und \textgamma\space
 
 Zur Formulierung des Modells wendet man drei Differenzialgleichungen an welche wie folgt Bezeichnet werden: 
 Änderungsrate der Suszeptiblen, Änderungsrate der Infizierten, und Änderungsrate der Entfernten.\cite[s.10]{3}
+Die Erste Gleichung, die Änderung der Suszeptiblen 
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I $$
@@ -167,7 +172,9 @@ R_{0}
 
 %------------------------------------------------
 
-\subsection{start}
+\subsection{Beginn}
+
+S = 1 
 
 %------------------------------------------------
 
