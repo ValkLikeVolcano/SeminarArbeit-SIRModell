@@ -173,7 +173,7 @@ $$ \frac{\Delta S}{\Delta t} = -\beta\space S I $$
 \textsl{Änderungsrate der Suszeptiblen Population s'(\textit{t})}
 \end{center}
 
-Die Suszeptible und die Infizierte Population haben den Parameter \textbeta \space gemeinsam. \textit{S} wird mit der rate \textbeta \space eine Menge an Individuen abgezogen (-\textbeta) und dann \textit{I} hinzugefügt. Da zur Infektion eine Begegnung mit \textit{I} benötigt wird wird \textbeta\textit{S} mit \textit{I} multipliziert. %SOURCES BIBBA
+Die Suszeptible und die Infizierte Population haben den Parameter \textbeta \space gemeinsam. \textit{S} wird mit der rate \textbeta \space eine Menge an Individuen abgezogen (-\textbeta) und dann \textit{I} hinzugefügt. Da \textit{I} aus mehreren Infizierten Individuen besteht, welche jeweils \textbeta\space viele Suszeptible anstecken können, wird \textbeta\textit{S} mit \textit{I} multipliziert.
 Die Population der Entfernten Individuen wird berechnet indem der Parameter \textgamma\space mit \textit{I} mal-genommen wird, da \textit{I} mit der rate \textgamma\space Entfernt wird \cite{7,3}:
 
 $$ \frac{\Delta R}{\Delta t} = \gamma I $$
@@ -194,12 +194,29 @@ Hier bekommt \textit{I} Zuwachs von \textit{S} mit dem Parameter \textbeta\space
 
 %------------------------------------------------
 
-\subsection{Basisreproduktionszahl}
-helo
+\subsection{Die Basisreproduktionszahl}
+
+Wenn eine aktuelle Infektion mit dem \textbf{SIR-Modell} Betrachtet wird, soll an erster stelle erkenntlich gemacht wie sich die Infektion Verhält oder Verhalten wird. Es gibt Drei Verhaltensweisen, die durch das \textbf{SIR-Modell} festgestellt werden können: Endemisch wird eine Infektion benannt, welche regelmäßig an einem Ort auftritt und einigermaßen Konstante Infektionen aufweist. Epidemisch wird eine Infektion dann genannt, wenn sie an einem Ort unregelmäßig auftritt und schneller Neuinfektionen auftreten wie bereits Infizierte Genesen/Sterben, sich also Verbreitet. Eine globale Epidemie wird als Pandemie bezeichnet und nicht separat von dem \textbf{SIR-Modell} erfasst. Das Epidemisch Verhalten wird in zwei Phasen aufgeteilt: die Ausbreitung und den Rückgang der Epidemischen Phase. Das kommt daher das nach einer gewissen zeit die Meißen oder alle Individuen In die Infizierte oder Entfernte Population aufgerückt sind, sodass Neuinfektionen nicht mehr oder nur schwer möglich sind, sodass die Infektionswelle abflacht \cite{3,5}. Das \textbf{SIR-Modell} ermöglicht die Berechnung der sogenannten Basisreproduktionszahl 
+\begin{center}
+R_{0}
+\end{center}
+welche zu beginn der Infektion t = 0 das zukünftige Verhalten der Infektion angibt. Berechnet wird diese anhand der beiden Parameter \textbeta\ und \textgamma\space da diese ja die zu und Abnahme der Population \textit{I} beschreiben. Des weiteren spielt auch die proportionale Größe von \textit{S} eine rolle, da zur Infektion ein Suszeptibles Individuum benötigt wird. Da zu beginn des Modells \textit{S} ungefähr 1 ist, kann dieser Faktor zur Berechnung der Basisreproduktionszahl Vernachlässigt werden. Deshalb gilt Solange die Übertragungsrate \textbeta\space größer als die Erholungsrate \textgamma\space ist nimmt die menge der Population \textit{I} zu. Die Rechnung dazu sieht folgendermaßen aus \cite{6,3}:
+
+$$ R_{0} = \frac{\beta}{\gamma} $$
+
+\begin{center}
+\textit{R_{0} > 1 =} \textnormal{Epidemisch}, R_{0} \approx 1 = \textnormal{Endemisch}, R_{0} < 1 = \textnormal{Rückgängig.}
+\end{center}
+Im Fall von R = 2 Infiziert Jedes Individuum der Population \textit{I} Zwei weitere Personen, bevor es In \textit{R} übergeht. In diesem Fall wird von Exponentiellem Wachstum gesprochen.
+Wenn man die derzeitige Reproduktionszahl eines Zeitpunkts \textit{t} ermitteln möchte, um herauszufinden in welchem zustand sich die Infektion befindet, muss die Änderungsrate von \textit{S} berücksichtigt werden:
+
+$$ R_{t} = \frac{\beta S_{t}}{\gamma} $$
+
+Mithilfe dieser Gleichung lässt sich beispielsweise erkennen, welchen Effekt getroffene Maßnahmen (Social Distancing, Impfung) auf die Ausbreitung der Infektion haben.
 
 %------------------------------------------------
 
-\subsection{Graphische Darstellung Des Modells}
+\subsection{Graphische Darstellung Des SIR-Modells}
 
 Das \textbf{SIR-Modell} kann auch graphisch dargestellt werden:
 In einem Koordinatensystem stellt die x-Achse die Zeit meist in Tagen, und die y-Achse die Bevölkerung dar. Drei Graphen zeigen die Änderung der Größe der jeweiligen Populationen auf. Wie diese Graphen berechnet werden wird in 3.1 Angesprochen.
@@ -214,6 +231,7 @@ Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, 
 	
 %------------------------------------------------
 
+\newpage
 \subsection{Beginn}
 
 startwerte
@@ -241,7 +259,6 @@ impfung, distancing, Hygiene, Mutationen
 
 %------------------------------------------------
 
-\newpage
 \subsection{Chaos}
 
 leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
