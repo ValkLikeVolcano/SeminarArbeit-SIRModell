@@ -245,7 +245,7 @@ $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \gamma I $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I$$
 
 \textit{S} nimmt mit der Infektionsrate \textbeta\space ab, bekommt jedoch die menge der Erholungsrate \textgamma\space dazu, während für \textit{I} das genaue Gegenteil gilt. Individuen bewegen sich so von \textit{S} zu \textit{I} in einem Ewigen Kreislauf
- \cite{5}. Das \textbf{SIRS-Modell} wird eingesetzt, wenn eine nur temporäre Immunität besteht, wie es bei \textsl{Covid-19} der Fall ist. Diese Variation des Modells führt den Parameter \textepsilon\space als durchschnittliche Immunitätsdauer ein. Hier werden die Änderungsraten angepasst indem Individuen von \textit{R} mit der rate \textepsilon\space zu \textit{S} übergehen \cite{8}:
+ \cite{5}. Das \textbf{SIRS-Modell} wird eingesetzt, wenn eine nur temporäre Immunität besteht, wie es bei \textsl{Covid-19} der Fall ist. Diese Variation des Modells führt den Parameter \textepsilon\space als durchschnittliche Immunitätsdauer ein. Hier werden die Änderungsraten angepasst indem Individuen von \textit{R} mit der rate \textepsilon\space zu \textit{S} übergehen, was erneut in einem Kreislaufmodell Endet \cite{8}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \epsilon R $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I + -\gamma I $$
@@ -254,11 +254,12 @@ $$ \frac{\Delta T}{\Delta t} = \gamma I - \epsilon R $$
 %---------------------
 
 \subsubsection{Modell mit dynamischer Gesamtbevölkerung}
-dynamic vitals
-b
-\textnu neugeburt
-\textmu tode
-\textrho Impfungen
+
+In der Realität gibt es eine menge Faktoren, welche die Bevölkerung nicht Konstant halten. Das \textbf{SIR-Modell} mit \textbf{Dynamischer Bevölkerung} versucht durch die erweiterten Parameter \textnu\space für Geburten und \textmu\space für Todesfälle einige der wichtigsten Faktoren einer dynamischen Bevölkerung miteinzubeziehen. Neugeburten werden in die Suszeptible Population eingeordnet, während Tode in jeder Population Präsent sind. Dementsprechend werden diese Parameter zu den Änderungsraten hinzugefügt oder abgezogen \cite{8}:
+
+$$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \nu - \mu S $$
+$$ \frac{\Delta I}{\Delta t} = \beta\space S I - \mu I $$
+$$ \frac{\Delta R}{\Delta t} = -\beta\space S I - \mu R $$
 
 %------------------------------------------------
 
