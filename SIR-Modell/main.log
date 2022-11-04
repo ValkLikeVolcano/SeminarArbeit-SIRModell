@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  3 NOV 2022 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  4 NOV 2022 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,35 +1093,35 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count419
 \@quotereset=\count420
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 39
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 43
 .
 (F:\Utility\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 39.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
+3.
 
 (F:\Utility\MikTex\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    ... okay on input line 43.
 \c@lstlisting=\count421
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1148,8 +1148,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
 
 (F:\Utility\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1207,14 +1207,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-3.
+7.
 (F:\Utility\MikTex\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 <Figures//VHGLogo.jpg, id=1, 272.9077pt x 63.17308pt>
 File: Figures//VHGLogo.jpg Graphic file (type jpg)
 <use Figures//VHGLogo.jpg>
-Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 43.
+Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 47.
 (pdftex.def)             Requested size: 227.62206pt x 52.69003pt.
 
 
@@ -1224,7 +1224,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \thispagestyle
+l.47 \thispagestyle
                    {empty}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1237,7 +1237,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \thispagestyle
+l.47 \thispagestyle
                    {empty}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1250,47 +1250,60 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \thispagestyle
+l.47 \thispagestyle
+                   {empty}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \thispagestyle
                    {empty}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 43.
+ 47.
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 43.
+ 47.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 43.
+ 47.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 43.
+ 47.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-3.
+7.
 
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
  [1
 
 
@@ -1302,7 +1315,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 47.
+ne 51.
 
 (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -1314,7 +1327,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout4 = `main.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 59--69
+Underfull \hbox (badness 10000) in paragraph at lines 63--73
 
  []
 
@@ -1322,165 +1335,176 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--69
 
 
 ]
-
-LaTeX Warning: Citation '4' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation '7' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation '6' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Citation '6' on page 2 undefined on input line 85.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 
-LaTeX Warning: Citation '6' on page 2 undefined on input line 87.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
-
-
-LaTeX Warning: Citation '3' on page 2 undefined on input line 91.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-03.
+05.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: Citation '4' on page 2 undefined on input line 110.
-
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-11.
-LaTeX Font Info:    No file LGRptm.fd. on input line 111.
+13.
+LaTeX Font Info:    No file LGRptm.fd. on input line 113.
+
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 111.
+(Font)              using `LGR/cmr/m/n' instead on input line 113.
 
 [2]
 <Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-19.
+21.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
+ [3 <./Figures//SIR-model-flowchart.png>]
 
-
-LaTeX Warning: Citation '5' on page 3 undefined on input line 131.
-
-
-LaTeX Warning: Citation '2' on page 3 undefined on input line 135.
-
-
-LaTeX Warning: Citation '3' on page 3 undefined on input line 136.
-
-[3 <./Figures//SIR-model-flowchart.png>]
-
-LaTeX Warning: Citation '3' on page 4 undefined on input line 143.
-
-
-LaTeX Warning: Citation '4' on page 4 undefined on input line 143.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 145.
+LaTeX Font Warning: Command \large invalid in math mode on input line 146.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 145.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 146.
 
 
 
-LaTeX Warning: Citation '4' on page 4 undefined on input line 147.
+LaTeX Font Warning: Command \large invalid in math mode on input line 150.
 
-<Figures//SIR-model-graph.png, id=26, 741.77126pt x 396.48125pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.152 ...t{S} > 0, \textit{I} > 0, \textit{R} \geq
+                                                   0.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 \end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 168.
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 168.
+[4]
+<Figures//SIR-model-graph.png, id=33, 741.77126pt x 396.48125pt>
 File: Figures//SIR-model-graph.png Graphic file (type png)
 <use Figures//SIR-model-graph.png>
-Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 155.
+Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 211.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
-[4 <./Figures//SIR-model-graph.png>]
-
-LaTeX Warning: Citation '3' on page 5 undefined on input line 167.
 
 
-LaTeX Warning: Citation '7' on page 5 undefined on input line 181.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6 <./Figures//SIR-model-graph.png>] [7] [8] [9] [10] [11]
+Overfull \hbox (18.04648pt too wide) in paragraph at lines 276--276
+\T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
+er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
+56124. 
+ []
 
 
-LaTeX Warning: Citation '3' on page 5 undefined on input line 184.
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 278.
 
+(main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
 
-LaTeX Warning: Citation '4' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Citation '5' on page 5 undefined on input line 185.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.195 R_
-        {0}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.196 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[5] [6] [7] [8] [9] [10] [11] [12]
-
-LaTeX Warning: Empty bibliography on input line 265.
-
-(main.aux)
+ [12] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20001 strings out of 475385
- 398618 string characters out of 2789572
- 1316371 words of memory out of 3000000
- 41103 multiletter control sequences out of 15000+600000
- 550769 words of font info for 142 fonts, out of 8000000 for 9000
+ 20068 strings out of 475385
+ 400177 string characters out of 2789572
+ 1316608 words of memory out of 3000000
+ 41166 multiletter control sequences out of 15000+600000
+ 551106 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:
-/Utility/MikTex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/
-urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Uti
-lity/MikTex/fonts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw
-/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 273631 bytes).
+ 108i,20n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Utility/MikTex/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:/Utility/MikT
+ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
+yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
+onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
+.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (14 pages, 295178 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
