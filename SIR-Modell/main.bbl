@@ -48,6 +48,27 @@
       \field{title}{A contribution to the mathematical theory of epidemics}
       \field{year}{1927}
     \endentry
+    \entry{8}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2d1af12f08950b8d29aa0f2a1067cab3}{%
+           family={Dolgoarshinnykh},
+           familyi={D\bibinitperiod},
+           given={Regina\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \strng{fullhash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \strng{bibnamehash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \strng{authorbibnamehash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \strng{authornamehash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \strng{authorfullhash}{2d1af12f08950b8d29aa0f2a1067cab3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SAMPLE PATH LARGE DEVIATIONS FOR SIRS EPIDEMIC PROCESSES}
+      \field{year}{2004}
+    \endentry
     \entry{4}{book}{}
       \name{author}{1}{}{%
         {{hash=45aa047365153ce73b8b360290476306}{%

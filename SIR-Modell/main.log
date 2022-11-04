@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  4 NOV 2022 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  5 NOV 2022 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1611,7 +1611,7 @@ Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 228.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./Figures//SIR-model-graph.png>] [8] [9] [10] [11]
+[6] [7 <./Figures//SIR-model-graph.png>] [8] [9] [10] [11] [12]
 
 ! LaTeX Error: Unicode character � (U+FFFD)
                not set up for use with LaTeX.
@@ -1620,7 +1620,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.280 \printbibliography[heading=bibintoc]
+l.297 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1633,7 +1633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.280 \printbibliography[heading=bibintoc]
+l.297 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1646,20 +1646,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.280 \printbibliography[heading=bibintoc]
+l.297 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (21.5209pt too wide) in paragraph at lines 280--280
+Overfull \hbox (21.5209pt too wide) in paragraph at lines 297--297
 \T1/ptm/m/it/12 ein an-ge-pas-stes CO-VID  Ma-na-ge-ment\T1/ptm/m/n/12 . Wies-b
 a-den: Sprin-ger View-eg, 2022. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 3658364750
 . 
  []
 
 
-Overfull \hbox (18.04648pt too wide) in paragraph at lines 280--280
+Overfull \hbox (18.04648pt too wide) in paragraph at lines 297--297
 \T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
 er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
 56124. 
@@ -1674,19 +1674,25 @@ er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
 Package caption Warning: Unused \captionsetup[subfigure] on input line 32.
 See the caption package documentation for explanation.
 
-[12] (main.aux)
+[13] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21758 strings out of 475385
- 432489 string characters out of 2789572
- 1333327 words of memory out of 3000000
- 42844 multiletter control sequences out of 15000+600000
+ 21767 strings out of 475385
+ 432797 string characters out of 2789572
+ 1334331 words of memory out of 3000000
+ 42853 multiletter control sequences out of 15000+600000
  551106 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,106p,10601b,1763s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1700,9 +1706,9 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 294491 bytes).
+Output written on main.pdf (15 pages, 299797 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

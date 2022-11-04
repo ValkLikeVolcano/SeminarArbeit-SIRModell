@@ -225,34 +225,51 @@ Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, 
 
 	\begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\columnwidth]{SIR-model-graph.png} 
+	\includegraphics[width=0.8\columnwidth]{SIR-model-graph.png}
 	\caption[SIR Infektionsverlauf,\newline https://www.davidketcheson.info/2020/03/17/SIR\textunderscore model.html]{SIR Infektionsverlauf}
 	\end{figure}
 
 %------------------------------------------------
 
-\subsection{Varianten}
+\subsection{Variationen des SIR-Modells}
 
+Nachdem die Grundlegenden Rechnungen und Parameter des \textbf{SIR-Modells} nun bekannt sind, werden im folgenden einige gängige Variationen des Modells genauer betrachtet. Wie bereits Erwähnt ist das Modell prädestiniert dafür, verändert oder erweitert zu werden um akkuratere Berechnungen zu Epidemien zu ermöglichen. Diese Veränderungen können das hinzufügen weiterer Populationen, Parameter, sowie das anpassen der Startbedingungen beinhalten \cite{5}.
+
+%---------------------
+
+\subsubsection{Modell zur Berechnung von Infektionswellen}
+
+Wie am Beispiel \textsl{Covid-19} zu erkennen ist, gibt es Epidemien die keine oder nur Temporäre Immunität erlauben, was bedeutet, das Infektionswellen entstehen in welchen die Infektion ausbricht und wieder zurückgeht. Um das \textbf{SIR-Modell} für eine solche Situation anzupassen, kann Entweder die Entfernte Gruppe durch eine Suszeptible ersetzt werden was \textbf{SIS-Modell} genannt wird, oder eine weitere Suszeptible Gruppe zu einem \textbf{SIRS-Modell} angefügt werden. Die Startbedingungen und Parameter für das \textbf{SIS-Modell} bleiben dieselben des \textbf{SIR-Modells}. Aus den Drei Differentialgleichungen werden zwei:
+
+$$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \gamma I $$
+$$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I$$
+
+\textit{S} nimmt mit der Infektionsrate \textbeta\space ab, bekommt jedoch die menge der Erholungsrate \textgamma\space dazu, während für \textit{I} das genaue Gegenteil gilt. Individuen bewegen sich so von \textit{S} zu \textit{I} in einem Ewigen Kreislauf
+ \cite{5}. Das \textbf{SIRS-Modell} wird eingesetzt, wenn eine nur temporäre Immunität besteht, wie es bei \textsl{Covid-19} der Fall ist. Diese Variation des Modells führt den Parameter \textepsilon\space als durchschnittliche Immunitätsdauer ein. Hier werden die Änderungsraten angepasst indem Individuen von \textit{R} mit der rate \textepsilon\space zu \textit{S} übergehen \cite{8}:
+
+$$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \epsilon R $$
+$$ \frac{\Delta I}{\Delta t} = \beta\space S I + -\gamma I $$
+$$ \frac{\Delta T}{\Delta t} = \gamma I - \epsilon R $$
+
+%---------------------
+
+\subsubsection{Modell mit dynamischer Gesamtbevölkerung}
 dynamic vitals
-
+b
 \textnu neugeburt
-
 \textmu tode
-
 \textrho Impfungen
-
-%------------------------------------------------
-
-\newpage
-\subsection{Einflussfaktoren}
-
-impfung, distancing, Hygiene, Mutationen
 
 %------------------------------------------------
 
 \section{Mathematisches Chaos des SIR-Modells}
 
 leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
+
+\newpage
+\subsection{Einflussfaktoren}
+
+impfung, distancing, Hygiene, Mutationen
 
 %----------------------------------------------------------------------------------------
 
