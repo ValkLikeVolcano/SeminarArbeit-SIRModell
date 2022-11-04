@@ -6,7 +6,7 @@
 
 \usepackage{listings} % Code listings, with syntax highlighting
 
-\usepackage[ngerman]{babel} % german language hyphenation
+\usepackage[german]{babel} % german language hyphenation
 
  \usepackage{setspace}
 
@@ -26,6 +26,22 @@
 
 \usepackage{enumitem} % Required for list customisation
 \setlist{noitemsep} % No spacing between list items
+
+\usepackage{subcaption}
+
+\captionsetup[subfigure]{list=false}
+
+\usepackage[subfigure]{tocloft}
+
+\newcounter{lofdepth}
+\setcounter{lofdepth}{2}
+
+\cftpagenumbersoff{subfigure}
+
+\renewcaptionname{german}{\figurename}{Abb.}
+\BeforeStartingTOC[lof]{\def\autodot{:}}
+
+\usepackage{url}
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT MARGINS

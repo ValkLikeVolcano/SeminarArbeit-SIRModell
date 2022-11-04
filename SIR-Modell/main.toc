@@ -1,4 +1,4 @@
-\babel@toc {ngerman}{}\relax 
+\babel@toc {german}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{}%
 \contentsline {section}{\numberline {2}Grundlagen Des SIR-Modells}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Entstehungsgeschichte}{2}{}%
@@ -8,13 +8,11 @@
 \contentsline {subsection}{\numberline {3.1}Variablen des SIR Modells}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Reproduktionsrate einer Infektion}{5}{}%
 \contentsline {subsection}{\numberline {3.3}Graphische Darstellung Des SIR-Modells}{6}{}%
-\contentsline {subsection}{\numberline {3.4}Beginn}{7}{}%
-\contentsline {subsection}{\numberline {3.5}Varianten}{7}{}%
-\contentsline {subsection}{\numberline {3.6}Einflussfaktoren}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Varianten}{7}{}%
+\contentsline {subsection}{\numberline {3.5}Einflussfaktoren}{8}{}%
 \contentsline {section}{\numberline {4}Mathematisches Chaos des SIR-Modells}{8}{}%
 \contentsline {section}{\numberline {5}Fallbeispiele}{9}{}%
 \contentsline {subsection}{\numberline {5.1}Covid 19}{9}{}%
 \contentsline {subsection}{\numberline {5.2}Jährliche flu}{10}{}%
 \contentsline {section}{\numberline {6}Fazit}{11}{}%
 \contentsline {section}{\nonumberline Literatur}{12}{}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

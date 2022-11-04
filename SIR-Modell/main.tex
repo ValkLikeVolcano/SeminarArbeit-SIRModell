@@ -119,7 +119,7 @@ Zu Beginn der Epidemie sei die Menge der Population \textsl{R} gleich Null, die 
 	\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{SIR-model-flowchart.png} 
-	\caption{SIR Gruppenverteilung}
+	\caption[SIR Gruppenverteilung,\newline https://www.researchgate.net/figure/SIR-model-flowchart\textunderscore fig8\textunderscore 318394911]{SIR Gruppenverteilung}
 	\end{figure}
 
 %------------------------------------------------
@@ -196,21 +196,18 @@ Hier bekommt \textit{I} Zuwachs von \textit{S} mit dem Parameter \textbeta\space
 
 \subsection{Reproduktionsrate einer Infektion}
 
-Wenn eine aktuelle Infektion mit dem \textbf{SIR-Modell} Betrachtet wird, soll an erster stelle erkenntlich gemacht wie sich die Infektion Verhält oder Verhalten wird. Es gibt Drei Verhaltensweisen, die durch das \textbf{SIR-Modell} festgestellt werden können: Endemisch wird eine Infektion benannt, welche regelmäßig an einem Ort auftritt und einigermaßen Konstante Infektionen aufweist. Epidemisch wird eine Infektion dann genannt, wenn sie an einem Ort unregelmäßig auftritt und schneller Neuinfektionen auftreten wie bereits Infizierte Genesen/Sterben, sich also Verbreitet. Eine globale Epidemie wird als Pandemie bezeichnet und nicht separat von dem \textbf{SIR-Modell} erfasst. Das Epidemisch Verhalten wird in zwei Phasen aufgeteilt: die Ausbreitung und den Rückgang der Epidemischen Phase. Das kommt daher das nach einer gewissen zeit die Meißen oder alle Individuen In die Infizierte oder Entfernte Population aufgerückt sind, sodass Neuinfektionen nicht mehr oder nur schwer möglich sind, sodass die Infektionswelle abflacht \cite{3,5}. Das \textbf{SIR-Modell} ermöglicht die Berechnung der sogenannten Basisreproduktionszahl 
-\begin{center}
-R_{0}
-\end{center}
+Wenn eine aktuelle Infektion mit dem \textbf{SIR-Modell} Betrachtet wird, soll an erster stelle erkenntlich gemacht wie sich die Infektion Verhält oder Verhalten wird. Es gibt Drei Verhaltensweisen, die durch das \textbf{SIR-Modell} festgestellt werden können: Endemisch wird eine Infektion benannt, welche regelmäßig an einem Ort auftritt und einigermaßen Konstante Infektionen aufweist. Epidemisch wird eine Infektion dann genannt, wenn sie an einem Ort unregelmäßig auftritt und schneller Neuinfektionen auftreten wie bereits Infizierte Genesen/Sterben, sich also Verbreitet. Eine globale Epidemie wird als Pandemie bezeichnet und nicht separat von dem \textbf{SIR-Modell} erfasst. Das Epidemisch Verhalten wird in zwei Phasen aufgeteilt: die Ausbreitung und den Rückgang der Epidemischen Phase. Das kommt daher das nach einer gewissen zeit die Meißen oder alle Individuen In die Infizierte oder Entfernte Population aufgerückt sind, sodass Neuinfektionen nicht mehr oder nur schwer möglich sind, sodass die Infektionswelle abflacht \cite{3,5}. Das \textbf{SIR-Modell} ermöglicht die Berechnung der sogenannten Basisreproduktionszahl  $r_{0}$
 welche zu beginn der Infektion t = 0 das zukünftige Verhalten der Infektion angibt. Berechnet wird diese anhand der beiden Parameter \textbeta\ und \textgamma\space da diese ja die zu und Abnahme der Population \textit{I} beschreiben. Des weiteren spielt auch die proportionale Größe von \textit{S} eine rolle, da zur Infektion ein Suszeptibles Individuum benötigt wird. Da zu beginn des Modells \textit{S} ungefähr 1 ist, kann dieser Faktor zur Berechnung der Basisreproduktionszahl Vernachlässigt werden. Deshalb gilt Solange die Übertragungsrate \textbeta\space größer als die Erholungsrate \textgamma\space ist nimmt die menge der Population \textit{I} zu. Die Rechnung dazu sieht folgendermaßen aus \cite{6,3}:
 
-$$ R_{0} = \frac{\beta}{\gamma} $$
+$$ r_{0} = \frac{\beta}{\gamma} $$
 
 \begin{center}
-\textit{R_{0} > 1 =} \textnormal{Epidemisch}, R_{0} \approx 1 = \textnormal{Endemisch}, R_{0} < 1 = \textnormal{Rückgängig.}
+\textit{r_{0} > 1 =} \textnormal{Epidemisch}, r_{0} \approx 1 = \textnormal{Endemisch}, r_{0} < 1 = \textnormal{Rückgängig.}
 \end{center}
 Im Fall von R = 2 Infiziert Jedes Individuum der Population \textit{I} Zwei weitere Personen, bevor es In \textit{R} übergeht. In diesem Fall wird von Exponentiellem Wachstum gesprochen.
 Wenn man die derzeitige Reproduktionszahl eines Zeitpunkts \textit{t} ermitteln möchte, um herauszufinden in welchem zustand sich die Infektion befindet, muss die Änderungsrate von \textit{S} berücksichtigt werden:
 
-$$ R_{t} = \frac{\beta S_{t}}{\gamma} $$
+$$ r_{t} = \frac{\beta S_{t}}{\gamma} $$
 
 Mithilfe dieser Gleichung lässt sich beispielsweise erkennen, welchen Effekt getroffene Maßnahmen (Social Distancing, Impfung) auf die Ausbreitung der Infektion haben.
 
@@ -218,25 +215,19 @@ Mithilfe dieser Gleichung lässt sich beispielsweise erkennen, welchen Effekt ge
 
 \subsection{Graphische Darstellung Des SIR-Modells}
 
-Das \textbf{SIR-Modell} kann auch graphisch dargestellt werden:
-In einem Koordinatensystem stellt die x-Achse die Zeit meist in Tagen, und die y-Achse die Bevölkerung dar. Drei Graphen zeigen die Änderung der Größe der jeweiligen Populationen auf. Wie diese Graphen berechnet werden wird in 3.1 Angesprochen.
-Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen die Größe \textit{N} ergibt (vgl. Abb. 3.1).
-Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, wann sie ausstirbt sowie die menge der Individuen die zu keinem Zeitpunkt infiziert wahren.
+Ein Essenzieller Part des \textbf{SIR-Modells} ist die Graphische Darstellung des Infektionsverlaufs um eine visuelle Übersicht der Epidemie für die Allgemeinheit, und das schnelle auslesen von Daten an spezifischen Punkten zu haben.
+In einem Koordinatensystem stellt die x-Achse die Zeit in Tagen, und die y-Achse die Bevölkerungsanzahl dar. Drei Graphen der in 3.1 angesprochenen Differenzialgleichungen zeigen die Änderung der Größe der jeweiligen Population auf.
+Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen die Größe \textit{N} ergibt welche so eine Horizontale Asymptote für die Graphen bildet (Abb. 3.1).
+Die Startwerte der Gruppen an t = 0 sind: 
+$S_{0} \approx 1, I_{0} \approx 0$ wobei: $ S_{0} < 1, I_{0} > 0$ sodass beide zusammen die menge 1 Ergeben \cite{4}.
+Da zu beginn kein Individuum Immunität besitzt und sich mindestens eine Infizierte Person in der Bevölkerung befinden muss, um den Ausbruch Auszulösen. Daher gilt: $R_{0} = 0, R_{0} \geq 0 $(nicht zu verwechseln mit der Basisreproduktionszahl $r_{0}$).
+Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, wann sie ausstirbt sowie die menge der Individuen die zu keinem Zeitpunkt infiziert waren \cite{1}.
 
 	\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{SIR-model-graph.png} 
-	\caption[quelle, titel]{SIR Infektionsverlauf}
+	\caption[SIR Infektionsverlauf,\newline https://www.davidketcheson.info/2020/03/17/SIR\textunderscore model.html]{SIR Infektionsverlauf}
 	\end{figure}
-	
-%------------------------------------------------
-
-\newpage
-\subsection{Beginn}
-
-startwerte
-
-S = 1 
 
 %------------------------------------------------
 

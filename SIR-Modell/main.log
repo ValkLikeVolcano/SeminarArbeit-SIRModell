@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  4 NOV 2022 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  4 NOV 2022 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -281,18 +281,18 @@ Package: babel 2022/10/04 3.81 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(F:\Utility\MikTex\tex/latex/babel-german\ngerman.ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
-phy)
+(F:\Utility\MikTex\tex/latex/babel-german\german.ldf
+Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthograph
+y)
 
-(F:\Utility\MikTex\tex/latex/babel-german\ngermanb.ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
-aphy)
-Package babel Info: Making " an active character on input line 122.
+(F:\Utility\MikTex\tex/latex/babel-german\germanb.ldf
+Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthograp
+hy)
+Package babel Info: Making " an active character on input line 139.
 )))
-(F:\Utility\MikTex\tex/generic/babel/locale/de\babel-ngerman.tex
-Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 11.
+(F:\Utility\MikTex\tex/generic/babel/locale/de\babel-german.tex
+Package babel Info: Importing font and identification data for german
+(babel)             from babel-de-1901.ini. Reported on input line 25.
 )
 (F:\Utility\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -613,23 +613,116 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count414
 \enitdp@description=\count415
 )
+(F:\Utility\MikTex\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(F:\Utility\MikTex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(F:\Utility\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen171
+\captionmargin=\dimen172
+\caption@leftmargin=\dimen173
+\caption@rightmargin=\dimen174
+\caption@width=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: KOMA-Script document class detected.
+
+(F:\Utility\MikTex\tex/latex/caption\caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
+KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count416
+\c@continuedfloat=\count417
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count418
+\c@subtable=\count419
+)
+
+Class scrartcl Warning: Usage of package `tocloft' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use options like `listof=entryprefix',
+(scrartcl)              commands like `\listoflofentryname' or
+(scrartcl)              `\listoflotentryname', and `\DeclareTOCStyleEntry' or
+(scrartcl)              `\RedeclareSectionCommand' instead of this package,
+(scrartcl)              because it breaks several KOMA-Script features of
+(scrartcl)              the list of figures, list of tables and table of
+(scrartcl)              contents, i.e., options like `listof=numbered',
+(scrartcl)              `listof=flat or `toc=flat', commands like
+(scrartcl)              `\BeforeTOCHead{...}' and `\AfterTOCHead{...}',
+(scrartcl)              `\BeforeStartingTOC{...}' and \AfterStartingTOC{...}',
+(scrartcl)              all features of `\DeclareTOCStyleEntry',
+(scrartcl)              and the ToC entry features of `\DeclareSecionCommand'
+(scrartcl)              and `\RedeclareSectionCommand' of levels
+(scrartcl)              `part', `chapter', `section', `subsection',
+(scrartcl)              `subsubsection', `paragraph' and `subparagraph'.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `tocloft' on input line 35.
+
+(F:\Utility\MikTex\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip92
+\cftbeforetoctitleskip=\skip93
+\cftaftertoctitleskip=\skip94
+\cftbeforepartskip=\skip95
+\cftpartnumwidth=\skip96
+\cftpartindent=\skip97
+\cftbeforesecskip=\skip98
+\cftsecindent=\skip99
+\cftsecnumwidth=\skip100
+\cftbeforesubsecskip=\skip101
+\cftsubsecindent=\skip102
+\cftsubsecnumwidth=\skip103
+\cftbeforesubsubsecskip=\skip104
+\cftsubsubsecindent=\skip105
+\cftsubsubsecnumwidth=\skip106
+\cftbeforeparaskip=\skip107
+\cftparaindent=\skip108
+\cftparanumwidth=\skip109
+\cftbeforesubparaskip=\skip110
+\cftsubparaindent=\skip111
+\cftsubparanumwidth=\skip112
+\cftbeforeloftitleskip=\skip113
+\cftafterloftitleskip=\skip114
+\cftbeforefigskip=\skip115
+\cftfigindent=\skip116
+\cftfignumwidth=\skip117
+\cftbeforelottitleskip=\skip118
+\cftafterlottitleskip=\skip119
+\cftbeforetabskip=\skip120
+\cfttabindent=\skip121
+\cfttabnumwidth=\skip122
+\cftbeforesubfigskip=\skip123
+\cftsubfigindent=\skip124
+\cftsubfignumwidth=\skip125
+\cftbeforesubtabskip=\skip126
+\cftsubtabindent=\skip127
+\cftsubtabnumwidth=\skip128
+)
+\c@lofdepth=\count420
+
 (F:\Utility\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (F:\Utility\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count416
-\Gm@cntv=\count417
-\c@Gm@tempcnt=\count418
-\Gm@bindingoffset=\dimen171
-\Gm@wd@mp=\dimen172
-\Gm@odd@mp=\dimen173
-\Gm@even@mp=\dimen174
-\Gm@layoutwidth=\dimen175
-\Gm@layoutheight=\dimen176
-\Gm@layouthoffset=\dimen177
-\Gm@layoutvoffset=\dimen178
+\Gm@cnth=\count421
+\Gm@cntv=\count422
+\c@Gm@tempcnt=\count423
+\Gm@bindingoffset=\dimen179
+\Gm@wd@mp=\dimen180
+\Gm@odd@mp=\dimen181
+\Gm@even@mp=\dimen182
+\Gm@layoutwidth=\dimen183
+\Gm@layoutheight=\dimen184
+\Gm@layouthoffset=\dimen185
+\Gm@layoutvoffset=\dimen186
 \Gm@dimlist=\toks30
 
 (F:\Utility\MikTex\tex/latex/geometry\geometry.cfg))
@@ -1069,7 +1162,7 @@ Class scrartcl Warning: Incompatible package `sectsty' loaded!
 
 (scrartcl)              Ignoring this warning could result in several error
 (scrartcl)              messages and formatting issues after loading package
-(scrartcl)              `sectsty' on input line 64.
+(scrartcl)              `sectsty' on input line 80.
 
 (F:\Utility\MikTex\tex/latex/koma-script\scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interf
@@ -1091,8 +1184,8 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count419
-\@quotereset=\count420
+\@quotelevel=\count424
+\@quotereset=\count425
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 43
 .
 (F:\Utility\MikTex\tex/latex/psnfss\t1ptm.fd
@@ -1122,24 +1215,13 @@ LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 43.
-\c@lstlisting=\count421
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(F:\Utility\MikTex\tex/latex/biblatex/lbx\ngerman.lbx
-File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+\c@lstlisting=\count426
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (F:\Utility\MikTex\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
-
-(F:\Utility\MikTex\tex/latex/biblatex/lbx\german.lbx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1153,16 +1235,16 @@ Package biblatex Info: Reference segment=0 on input line 43.
 
 (F:\Utility\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count422
-\scratchdimen=\dimen179
+\scratchcounter=\count427
+\scratchdimen=\dimen187
 \scratchbox=\box59
-\nofMPsegments=\count423
-\nofMParguments=\count424
+\nofMPsegments=\count428
+\nofMParguments=\count429
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count425
-\MPscratchDim=\dimen180
-\MPnumerator=\count426
-\makeMPintoPDFobject=\count427
+\MPscratchCnt=\count430
+\MPscratchDim=\dimen188
+\MPnumerator=\count431
+\makeMPintoPDFobject=\count432
 \everyMPtoPDFconversion=\toks34
 ) (F:\Utility\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1172,6 +1254,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (F:\Utility\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1206,6 +1291,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package scrbase Info: activating german \figurename on input line 43.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
 7.
 (F:\Utility\MikTex\tex/latex/base\t1cmss.fd
@@ -1308,25 +1394,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 
 
 {C:/Users/nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures//VH
-GLogo.jpg>]
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 51.
-
-(main.toc
+GLogo.jpg>] (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2]
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 63--73
 
  []
@@ -1451,71 +1529,16 @@ LaTeX Info: Symbol \textrightarrow not provided by
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.201 R_
-        {0}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \end{center} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.208 \textit{R_{0} > 1 =}
-                           \textnormal{Epidemisch}, R_{0} \approx 1 = \textn...
+l.205 \textit{r_{0} > 1 =}
+                           \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.208 \textit{R_{0} > 1 =}
-                           \textnormal{Epidemisch}, R_{0} \approx 1 = \textn...
+l.205 \textit{r_{0} > 1 =}
+                           \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1529,7 +1552,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.206 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1541,7 +1564,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.206 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1553,7 +1576,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.206 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1561,7 +1584,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.209 \end{center}
+l.206 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1572,7 +1595,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.209 \end{center}
+l.206 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1589,25 +1612,69 @@ Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 228.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./Figures//SIR-model-graph.png>] [8] [9] [10] [11]
-Overfull \hbox (18.04648pt too wide) in paragraph at lines 293--293
+
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 \printbibliography[heading=bibintoc]
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 \printbibliography[heading=bibintoc]
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 \printbibliography[heading=bibintoc]
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (21.5209pt too wide) in paragraph at lines 280--280
+\T1/ptm/m/it/12 ein an-ge-pas-stes CO-VID  Ma-na-ge-ment\T1/ptm/m/n/12 . Wies-b
+a-den: Sprin-ger View-eg, 2022. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 3658364750
+. 
+ []
+
+
+Overfull \hbox (18.04648pt too wide) in paragraph at lines 280--280
 \T1/ptm/m/it/12 ma-ti-sche Mo-del-le, Glo-bal Pu-blic He-alth\T1/ptm/m/n/12 . B
 er-lin: Sprin-ger, 2003, S. 81^^U91. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 : 36425
 56124. 
  []
 
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 295.
-
 (main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [12] (main.aux)
+
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 32.
+See the caption package documentation for explanation.
+
+[12] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1616,16 +1683,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20068 strings out of 475385
- 400177 string characters out of 2789572
- 1316608 words of memory out of 3000000
- 41166 multiletter control sequences out of 15000+600000
+ 21758 strings out of 475385
+ 432489 string characters out of 2789572
+ 1333327 words of memory out of 3000000
+ 42844 multiletter control sequences out of 15000+600000
  551106 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,106p,10601b,2367s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,20n,106p,10601b,1763s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
-ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk><F:/Utility/MikTex/f
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><F:/Utility/MikTex/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Utility/MikTex/fonts/type1/public/
 amsfonts/cm/cmr10.pfb><F:/Utility/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><F:/Utility/MikTex/fonts/type1/public/cbgreek/grmn1200.pfb><F:/Utility/MikT
@@ -1633,9 +1700,9 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 299544 bytes).
+Output written on main.pdf (14 pages, 294491 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

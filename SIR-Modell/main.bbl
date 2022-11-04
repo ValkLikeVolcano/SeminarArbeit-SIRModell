@@ -75,6 +75,34 @@
       \field{title}{The SIR model of an epidemic}
       \field{year}{2021}
     \endentry
+    \entry{1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8df2de899b8a8e70748c8297d163af2b}{%
+           family={Hellwig},
+           familyi={H\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{8df2de899b8a8e70748c8297d163af2b}
+      \strng{fullhash}{8df2de899b8a8e70748c8297d163af2b}
+      \strng{bibnamehash}{8df2de899b8a8e70748c8297d163af2b}
+      \strng{authorbibnamehash}{8df2de899b8a8e70748c8297d163af2b}
+      \strng{authornamehash}{8df2de899b8a8e70748c8297d163af2b}
+      \strng{authorfullhash}{8df2de899b8a8e70748c8297d163af2b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3658364750}
+      \field{title}{SIR - Modell durch eine neue Dichte unterst�tzt: Handlungsdokument f�r ein angepasstes COVID � Management}
+      \field{year}{2022}
+    \endentry
     \entry{5}{inbook}{}
       \name{author}{1}{}{%
         {{hash=de20e3250faecdf1713262a01fe902a4}{%
