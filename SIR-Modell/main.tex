@@ -231,6 +231,23 @@ Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, 
 
 %------------------------------------------------
 
+%\subsection{Berechnung der Maximalen Anzahl von \textit{I}}
+
+%Der Moment an dem eine Infektion die Meisten Individuen zur selben Zeit infiziert hat kann als Wendepunkt der Epidemie gesehen werden und findet zu dem Zeitpunkt statt, in welchem die Effektive Reproduktionsrate \textit{r} = 1 beträgt. Diese sinkt von beginn der Pandemie an, da durch steigende Infektionen die Suszeptiblen in die Infizierte Population übergehen und so weniger Kontakte mit beiden Gruppen entstehen. Die Menge an Individuen, welche über den gesamten verlauf Maximal gleichzeitig Infiziert werden können ist eine wichtige Information für die Verteilung von Gesundheitsressourcen wie Masken, Krankenhausbetten oder Impfungen und somit ein essenzieller faktor zur Eindämmung der Epidemie. Um den wert von $\textit{S}_{max}$ Herauszufinden, wird zunächst die änderungsrate von \textit{I} durch die Änderungsrate von \textit{S} gerechnet, was folgendermaßen vereinfacht werden kann:
+
+%$$ \frac{\Delta I}{\Delta S} = \frac{\beta I S - \gamma I}{-\beta I S} = -1 + \frac{\gamma}{\beta S}$$
+
+
+
+
+%$$ \frac{\Delta I}{\Delta S} = -1 + \frac{1}{r S}$$
+
+%$$ I_{max} = I_{0} + S_{0} - \frac{1}{r} $$
+
+%Auch wenn die Graphische Darstellung ein ungefähres Ablesen der Werte zu jedem Zeitpunkt ermöglicht, können Wichtige Ereignisse wie dem Punkt an dem \textit{I} den größten wert hat durch eigene Gleichungen Berechnet werden. Bei einem Infektionsverlauf des \textbf{SIR-Modells} steigt die Anzahl der Infizierten so lange an, bis die Reproduktionsrate 1 erreicht.
+
+%------------------------------------------------
+
 \subsection{Variationen des SIR-Modells}
 
 Nachdem die Grundlegenden Rechnungen und Parameter des \textbf{SIR-Modells} nun bekannt sind, werden im folgenden einige gängige Variationen des Modells genauer betrachtet. Wie bereits Erwähnt ist das Modell prädestiniert dafür, verändert oder erweitert zu werden um akkuratere Berechnungen zu Epidemien zu ermöglichen. Diese Veränderungen können das hinzufügen weiterer Populationen, Parameter, sowie das anpassen der Startbedingungen beinhalten \cite{5}.
@@ -263,18 +280,20 @@ $$ \frac{\Delta R}{\Delta t} = -\beta\space S I - \mu R $$
 
 %------------------------------------------------
 
-\section{Mathematisches Chaos des SIR-Modells}
+%\section{Mathematisches Chaos des SIR-Modells}
 
-leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
+%In der Mathematik, Chaos 
 
-\newpage
-\subsection{Einflussfaktoren}
+%leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
 
-impfung, distancing, Hygiene, Mutationen
+\section{Einflussfaktoren von Infektionen}
+
+Damit das \textbf{SIR-Modell} anwendbar ist werden eine menge Faktoren vernachlässigt
+
+impfung, distancing, Hygiene, Mutationen, herden immunität, superspreader
 
 %----------------------------------------------------------------------------------------
 
-\newpage
 \section{Fallbeispiele}
 
 epic Explanation
@@ -284,10 +303,11 @@ epic Explanation
 \subsection{Covid 19}
 
 %------------------------------------------------
-\newpage
+
 \subsection{Jährliche flu}
 
 %----------------------------------------------------------------------------------------
+
 \newpage
 \section{Fazit}
 

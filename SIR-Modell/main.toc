@@ -11,10 +11,9 @@
 \contentsline {subsection}{\numberline {3.4}Variationen des SIR-Modells}{7}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Modell zur Berechnung von Infektionswellen}{7}{}%
 \contentsline {subsubsection}{\numberline {3.4.2}Modell mit dynamischer Gesamtbevölkerung}{8}{}%
-\contentsline {section}{\numberline {4}Mathematisches Chaos des SIR-Modells}{8}{}%
-\contentsline {subsection}{\numberline {4.1}Einflussfaktoren}{9}{}%
-\contentsline {section}{\numberline {5}Fallbeispiele}{10}{}%
-\contentsline {subsection}{\numberline {5.1}Covid 19}{10}{}%
-\contentsline {subsection}{\numberline {5.2}Jährliche flu}{11}{}%
-\contentsline {section}{\numberline {6}Fazit}{12}{}%
-\contentsline {section}{\nonumberline Literatur}{13}{}%
+\contentsline {section}{\numberline {4}Einflussfaktoren von Infektionen}{8}{}%
+\contentsline {section}{\numberline {5}Fallbeispiele}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Covid 19}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Jährliche flu}{9}{}%
+\contentsline {section}{\numberline {6}Fazit}{10}{}%
+\contentsline {section}{\nonumberline Literatur}{11}{}%
