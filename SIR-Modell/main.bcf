@@ -2382,6 +2382,9 @@
     <bcf:citekey order="25" intorder="1">10</bcf:citekey>
     <bcf:citekey order="26" intorder="1">7</bcf:citekey>
     <bcf:citekey order="26" intorder="2">10</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">8</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">6</bcf:citekey>
+    <bcf:citekey order="27" intorder="3">9</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

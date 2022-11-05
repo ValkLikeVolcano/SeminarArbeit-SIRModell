@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [1] Config.pm:309> INFO - Logfile is 'main.blg'
-[148] biber-MSWIN64:340> INFO - === 
-[222] Biber.pm:418> INFO - Reading 'main.bcf'
-[380] Biber.pm:978> INFO - Found 9 citekeys in bib section 0
-[406] Biber.pm:4401> INFO - Processing section 0
-[427] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
-[494] bibtex.pm:1713> INFO - LaTeX decoding ...
-[520] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
-[600] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[601] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[602] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[602] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
-[614] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[624] bbl.pm:757> INFO - Output to main.bbl
+[153] biber-MSWIN64:340> INFO - === 
+[209] Biber.pm:418> INFO - Reading 'main.bcf'
+[362] Biber.pm:978> INFO - Found 10 citekeys in bib section 0
+[383] Biber.pm:4401> INFO - Processing section 0
+[397] Biber.pm:4592> INFO - Looking for bibtex file 'literatur.bib' for section 0
+[466] bibtex.pm:1713> INFO - LaTeX decoding ...
+[482] bibtex.pm:1518> INFO - Found BibTeX data source 'literatur.bib'
+[559] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[560] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[560] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[561] Biber.pm:4227> INFO - No sort tailoring available for locale 'de-DE'
+[572] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[583] bbl.pm:757> INFO - Output to main.bbl

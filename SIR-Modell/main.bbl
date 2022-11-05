@@ -267,6 +267,32 @@
       \field{pages}{103\bibrangedash 117}
       \range{pages}{15}
     \endentry
+    \entry{9}{book}{}
+      \name{author}{1}{}{%
+        {{hash=66c37f93b10329f8347dc952d70ed95f}{%
+           family={Thomas\bibnamedelimb C.\bibnamedelimi Kelly\bibnamedelimb und\bibnamedelimb Andrei\bibnamedelima Korobeinikov},
+           familyi={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Suzanne\bibnamedelimb M.\bibnamedelimi O�Regan},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{66c37f93b10329f8347dc952d70ed95f}
+      \strng{fullhash}{66c37f93b10329f8347dc952d70ed95f}
+      \strng{bibnamehash}{66c37f93b10329f8347dc952d70ed95f}
+      \strng{authorbibnamehash}{66c37f93b10329f8347dc952d70ed95f}
+      \strng{authornamehash}{66c37f93b10329f8347dc952d70ed95f}
+      \strng{authorfullhash}{66c37f93b10329f8347dc952d70ed95f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chaos in a seasonally perturbed SIR model: avian influenza in a seabird colony as a paradigm}
+      \field{year}{2013}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
