@@ -278,6 +278,20 @@ $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \nu - \mu S $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \mu I $$
 $$ \frac{\Delta R}{\Delta t} = -\beta\space S I - \mu R $$
 
+Die meisten Modelle, welche eine Epidemie über einen längeren Zeitraum beobachten verwenden diese Version.
+
+%------------------------------------------------
+
+\subsection{Berechenbare Werte des SIR-Modells}
+
+Es Gibt eine Menge wertvoller Daten, die durch den Gebrauch des \textbf{SIR-Modells} oder dessen Derivate errechnet werden Können.
+Wenn in einer Bevölkerung eine gewisse Anzahl an Personen Immunität gegen eine Infektion aufweisen, Kann sich die Epidemie nicht länger verbreiten und kann zur Ausrottung der Krankheit führen, obwohl \textsl{S} noch eine menge an Individuen beinhaltet. Dieses Phänomen wird Herdenimmunität oder Herdenschutz genannt. Sie kann durch die Epidemie selbst auftreten, wenn ein großteils der Bevölkerung durch einmalige Infektion Immun ist, oder durch Impfungen Beschleunigt werden \cite{3}. Die Wichtigkeit dieses Schwellenwerts hat sich während des Ausbruchs von \textsl{Covid-19} Gezeigt, in welchem versucht wurde, Möglichst schnell durch Impfungen den Herdenschutz zu erreichen \cite{10}. Anhand des \textbf{SIR-Modells} lässt sich berechnen, wann die Epidemie selbst den Herdenschutz auslöst, in dem der Zeitpunkt von $ \textit{I}_{max} $ bestimmt wird. Auch die Menge von $ \textit{I}_{max} $ lässt sich errechnen, was aufgrund der Komplexität der Formeln In dieser Arbeit nicht behandelt wird. Einfacher zu ermitteln hingegen ist die Größe von $ \textit{S}_{0} $ damit sich keine Epidemie ausbreiten kann, dar sie einen Einfluss auf die Basisreproduktionszahl hat, welche wiederum über das verhalten einer Infektion entscheidet. 
+Dazu muss nur beachtet werden das in diesem Fall bei der Berechnung der Basisreproduktionszahl $\textit{r}_{0} $ Die Startmenge von $ \textit{S}_{0}$ nicht vernachlässigt werden darf, da sie nicht der ungefähren Gesamtbevölkerung Entspricht \cite{7, 10}:
+
+$$ r_{o} = \frac{\beta S_{0}}{\gamma} $$
+
+Weitere Erfassbare Werte beinhalten die menge der Suszeptiblen Population nach ende der Epidemie sowie die menge der meisten Neuinfektionen an einem Tag, auf welche nicht im Detail eingegangen wird. Eine der nützlichsten Funktionen des \textbf{SIR-Modells} ist die Evaluierung der Auswirkung von Maßnahmen wie der Kontaktvermeidung und Ereignissen wie Mutationen auf den verlauf der Epidemie. Das ist von nutzen wenn die Effektivität von einzelnen Maßnamen in Erfahrung zu bringen. Das wird meistens erreicht, indem
+
 %------------------------------------------------
 
 %\section{Mathematisches Chaos des SIR-Modells}
@@ -286,11 +300,11 @@ $$ \frac{\Delta R}{\Delta t} = -\beta\space S I - \mu R $$
 
 %leicht veränderte startwerte, starke abweichung (100% social d vs. 90% social d)
 
-\section{Einflussfaktoren von Infektionen}
+%\section{Einflussfaktoren von Infektionen}
 
-Damit das \textbf{SIR-Modell} anwendbar ist werden eine menge Faktoren vernachlässigt
+%Es gibt eine Menge  \textbf{SIR-Modell} 
 
-impfung, distancing, Hygiene, Mutationen, herden immunität, superspreader
+%impfung, distancing, Hygiene, Mutationen, herden immunität, superspreader
 
 %----------------------------------------------------------------------------------------
 

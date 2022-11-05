@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{7}{article}{}
+    \entry{7}{book}{}
       \name{author}{1}{}{%
         {{hash=7ea1c08639070b6fba190378e2e2c86b}{%
            family={A.\bibnamedelimi G.\bibnamedelimi McKendrick},
@@ -120,7 +120,6 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{3658364750}
       \field{title}{SIR - Modell durch eine neue Dichte unterst�tzt: Handlungsdokument f�r ein angepasstes COVID � Management}
       \field{year}{2022}
     \endentry
@@ -149,7 +148,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Applied Mathematical Ecology}
-      \field{isbn}{978-3-642-61317-3}
       \field{title}{Three Basic Epidemiological Models}
       \field{volume}{18}
       \field{year}{1989}
@@ -180,11 +178,36 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{3642556124}
       \field{title}{Infektionsepidemiologie: Methoden, moderne Surveillance, mathematische Modelle, Global Public Health}
       \field{year}{2003}
       \field{pages}{81\bibrangedash 91}
       \range{pages}{11}
+    \endentry
+    \entry{10}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f17db4cd3f4129ad881ab17c9faa666f}{%
+           family={Lang\bibnamedelima Moore},
+           familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={David\bibnamedelima Smith},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Mathematical Association of America}%
+      }
+      \strng{namehash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \strng{fullhash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \strng{bibnamehash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \strng{authorbibnamehash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \strng{authornamehash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \strng{authorfullhash}{f17db4cd3f4129ad881ab17c9faa666f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The SIR Model for Spread of Disease - Herd Immunity}
+      \field{year}{2004}
     \endentry
     \entry{3}{book}{}
       \name{author}{1}{}{%
@@ -212,11 +235,10 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-981-19-4174-0}
       \field{title}{Exploring Susceptible-Infectious-Recovered (SIR) Model for Covid-19 Investigation}
       \field{year}{2022}
     \endentry
-    \entry{6}{article}{}
+    \entry{6}{book}{}
       \name{author}{1}{}{%
         {{hash=cf50055fa2035027259215b6a92f4c8b}{%
            family={O.\bibnamedelimi Diekmann\bibnamedelimb und\bibnamedelimb W.\bibnamedelimi F.\bibnamedelimi de\bibnamedelimb Graaf\bibnamedelimb und\bibnamedelimb A.\bibnamedelimi Pugliese\bibnamedelimb und\bibnamedelimb R.\bibnamedelimi Vermiglio},
