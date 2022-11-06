@@ -1,19 +1,19 @@
 \babel@toc {german}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{}%
-\contentsline {section}{\numberline {2}Grundlagen Des SIR-Modells}{2}{}%
+\contentsline {section}{\numberline {2}Grundlagen des SIR-Modells}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Entstehungsgeschichte}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Voraussetzungen}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Anwendung}{3}{}%
 \contentsline {section}{\numberline {3}Mathematischer Aufbau}{4}{}%
 \contentsline {subsection}{\numberline {3.1}Variablen des SIR Modells}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Reproduktionsrate einer Infektion}{5}{}%
-\contentsline {subsection}{\numberline {3.3}Graphische Darstellung Des SIR-Modells}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Grafische Darstellung des SIR-Modells}{6}{}%
 \contentsline {subsection}{\numberline {3.4}Variationen des SIR-Modells}{7}{}%
 \contentsline {subsubsection}{\numberline {3.4.1}Modell zur Berechnung von Infektionswellen}{7}{}%
 \contentsline {subsubsection}{\numberline {3.4.2}Modell mit dynamischer Gesamtbevölkerung}{8}{}%
 \contentsline {subsection}{\numberline {3.5}Berechenbare Werte des SIR-Modells}{8}{}%
 \contentsline {section}{\numberline {4}Das SIR-Modell in Anwendung}{9}{}%
-\contentsline {subsection}{\numberline {4.1}Coronavirus Disease 2019}{9}{}%
-\contentsline {subsection}{\numberline {4.2}Vergleich mit Influenza}{11}{}%
+\contentsline {subsection}{\numberline {4.1}"`Coronavirus Disease 2019"'}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Vergleich mit Influenza}{12}{}%
 \contentsline {section}{\numberline {5}Fazit}{12}{}%
-\contentsline {section}{\nonumberline Literatur}{13}{}%
+\contentsline {section}{\nonumberline Literatur}{14}{}%
