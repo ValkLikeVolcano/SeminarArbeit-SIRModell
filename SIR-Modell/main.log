@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  6 NOV 2022 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  6 NOV 2022 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,26 @@ Package tocloft Info: The document has section divisions on input line 51.
 )
 \c@lofdepth=\count420
 
-(F:\Utility\MikTex\tex/latex/geometry\geometry.sty
+
+Class scrartcl Warning: Usage of package `tocbibind' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use options like `listof=totoc'
+(scrartcl)              or `bibliography=totoc', or commands like
+(scrartcl)              `\setuptoc{toc}{totoc}' instead of this package,
+(scrartcl)              because it breaks several KOMA-Script features of
+(scrartcl)              the list of figures, list of tables, bibliography,
+(scrartcl)              index and the running head.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `tocbibind' on input line 47.
+
+(F:\Utility\MikTex\tex/latex/tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (F:\Utility\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (F:\Utility\MikTex\tex/generic/iftex\ifvtex.sty
@@ -1162,7 +1181,7 @@ Class scrartcl Warning: Incompatible package `sectsty' loaded!
 
 (scrartcl)              Ignoring this warning could result in several error
 (scrartcl)              messages and formatting issues after loading package
-(scrartcl)              `sectsty' on input line 80.
+(scrartcl)              `sectsty' on input line 82.
 
 (F:\Utility\MikTex\tex/latex/koma-script\scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2022/10/12 v3.38 KOMA-Script package (end user interf
@@ -1186,39 +1205,52 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count424
 \@quotereset=\count425
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 43
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 56
 .
 (F:\Utility\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
-3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 56.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
+6.
 
 (F:\Utility\MikTex\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 56.
+Package tocbasic Info: usage of `tocbibind' detected on input line 56.
+
+
+Package tocbasic Warning: `tocbibind' redefinition of `\listoffigures'
+(tocbasic)                detected.
+(tocbasic)                Note: Loading `tocbibind' without option `notlof'
+(tocbasic)                can break several features of `tocbasic'.
+
+
+Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
+(tocbasic)                detected.
+(tocbasic)                Note: Loading `tocbibind' without option `notlot'
+(tocbasic)                can break several features of `tocbasic'.
+
 \c@lstlisting=\count426
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
-
 (F:\Utility\MikTex\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
@@ -1230,8 +1262,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
 
 (F:\Utility\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1291,106 +1323,58 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating german \figurename on input line 43.
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-7.
+Package scrbase Info: activating german \figurename on input line 56.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
+0.
 (F:\Utility\MikTex\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 <Figures//VHGLogo.jpg, id=1, 272.9077pt x 63.17308pt>
 File: Figures//VHGLogo.jpg Graphic file (type jpg)
 <use Figures//VHGLogo.jpg>
-Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 47.
+Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 60.
 (pdftex.def)             Requested size: 227.62206pt x 52.69003pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \thispagestyle
-                   {empty}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \thispagestyle
-                   {empty}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \thispagestyle
-                   {empty}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \thispagestyle
-                   {empty}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 47.
+ 60.
+
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 47.
+ 60.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 47.
+ 60.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 47.
+ 60.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-7.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+0.
 
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
- [1
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+
+
+LaTeX Warning: No \author given.
+
+[1
 
 
 {C:/Users/nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figures//VH
@@ -1403,9 +1387,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 63--71
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 75--83
 
  []
 
@@ -1413,56 +1396,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--71
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-03.
+15.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-11.
-LaTeX Font Info:    No file LGRptm.fd. on input line 111.
+23.
+LaTeX Font Info:    No file LGRptm.fd. on input line 123.
 
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 111.
+(Font)              using `LGR/cmr/m/n' instead on input line 123.
 
 [2]
 <Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-19.
+31.
 (pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
  [3 <./Figures//SIR-model-flowchart.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 144.
+LaTeX Font Warning: Command \large invalid in math mode on input line 156.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 144.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 156.
 
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 148.
+LaTeX Font Warning: Command \large invalid in math mode on input line 160.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.150 ...t{S} > 0, \textit{I} > 0, \textit{R} \geq
+l.162 ...t{S} > 0, \textit{I} > 0, \textit{R} \geq
                                                    0.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1474,7 +1457,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \end{center}
+l.163 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1486,7 +1469,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \end{center}
+l.163 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1498,7 +1481,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \end{center}
+l.163 \end{center}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1506,7 +1489,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.151 \end{center}
+l.163 \end{center}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1516,22 +1499,22 @@ my insertion and my current dilemma will both disappear.
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 165.
+            Default family used instead on input line 177.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 165.
+            Default family used instead on input line 177.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 208--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 208--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 208--216
 
  []
 
@@ -1539,7 +1522,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--204
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.208 \textit{r_{0} > 1 =}
+l.220 \textit{r_{0} > 1 =}
                            \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1547,7 +1530,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.208 \textit{r_{0} > 1 =}
+l.220 \textit{r_{0} > 1 =}
                            \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1562,7 +1545,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.221 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1574,7 +1557,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.221 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1586,7 +1569,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{center}
+l.221 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1594,7 +1577,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.209 \end{center}
+l.221 \end{center}
                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1605,7 +1588,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.209 \end{center}
+l.221 \end{center}
                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1616,10 +1599,10 @@ my insertion and my current dilemma will both disappear.
 <Figures//SIR-model-graph.png, id=39, 741.77126pt x 396.48125pt>
 File: Figures//SIR-model-graph.png Graphic file (type png)
 <use Figures//SIR-model-graph.png>
-Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 231.
+Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 243.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
 [6] [7 <./Figures//SIR-model-graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
@@ -1627,7 +1610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 <Figures//Covid-korea-chart.jpg, id=54, 562.1pt x 421.575pt>
 File: Figures//Covid-korea-chart.jpg Graphic file (type jpg)
 <use Figures//Covid-korea-chart.jpg>
-Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 342
+Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 354
 .
 (pdftex.def)             Requested size: 273.14923pt x 204.86244pt.
 
@@ -1638,11 +1621,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures//SIR-data-trend.png, id=58, 337.26pt x 219.06844pt>
 File: Figures//SIR-data-trend.png Graphic file (type png)
 <use Figures//SIR-data-trend.png>
-Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 354.
+Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 366.
 (pdftex.def)             Requested size: 295.90588pt x 192.2092pt.
  [11 <./Figures//Covid-korea-chart.jpg> <./Figures//SIR-data-trend.png>]
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 372--377
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
 
  []
 
@@ -1655,7 +1638,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 \printbibliography[heading=bibintoc]
+l.394 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1668,7 +1651,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 \printbibliography[heading=bibintoc]
+l.394 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1681,7 +1664,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 \printbibliography[heading=bibintoc]
+l.394 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1689,7 +1672,7 @@ You may provide a definition with
 ! Misplaced alignment tab character &.
 <argument> Taylor &
                     Francis
-l.382 \printbibliography[heading=bibintoc]
+l.394 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1706,12 +1689,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 \printbibliography[heading=bibintoc]
+l.394 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-(main.lof [14]
+[14] (main.lof
 Overfull \hbox (26.69246pt too wide) in paragraph at lines 4--4
  \T1/ptm/m/n/12 https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2
 020/covid-19-disease- 
@@ -1721,12 +1704,43 @@ Overfull \hbox (26.69246pt too wide) in paragraph at lines 4--4
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
+ [15
+
+
+]
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 402.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--409
+
+ []
 
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 32.
 See the caption package documentation for explanation.
 
-[15] (main.aux)
+[16] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1735,13 +1749,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21791 strings out of 475385
- 433589 string characters out of 2789572
- 1334455 words of memory out of 3000000
- 42875 multiletter control sequences out of 15000+600000
- 551106 words of font info for 143 fonts, out of 8000000 for 9000
+ 21875 strings out of 475385
+ 434698 string characters out of 2789572
+ 1335935 words of memory out of 3000000
+ 42955 multiletter control sequences out of 15000+600000
+ 553600 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,106p,10601b,2541s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,20n,106p,10601b,2539s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
 ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><F:/Utility/MikTex/f
@@ -1752,9 +1766,9 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (17 pages, 422223 bytes).
+Output written on main.pdf (18 pages, 423338 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
