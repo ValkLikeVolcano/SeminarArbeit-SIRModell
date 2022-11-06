@@ -68,7 +68,7 @@ Doch wie genau Berechnen Epidemiologen die Entwicklung einer Epidemie um Vorhers
 Diese Literaturarbeit soll zunächst das \textbf{SIR-Modell} mit allen Voraussetzungen Betrachten, Die Einhergehenden Differenzialgleichungen und die Basisreproduktionszahl Mathematisch Analysieren und unter Betrachtung der Flexibilität des Modells evaluieren. 
 Des weiteren veranschaulicht die Arbeit das Mathematische Chaos des Modells 
 ferner welche Veränderungen mit verschiedenen Abwandlungen der Formeln und Variablen Einhergehen. 
-Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit der  Saisonalen Influenza-Grippe verglichen werden. 
+Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit der Saisonalen \textsl{Influenza-Grippe} verglichen werden. 
 Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden keine Abweichungen des Modells im Detail Besprochen. 
 
 %----------------------------------------------------------------------------------------
@@ -310,7 +310,7 @@ Weitere Erfassbare Werte beinhalten die menge der Suszeptiblen Population nach e
 
 \section{Das SIR-Modell in Anwendung}
 
-Mit dem Verständnis des Grundsätzlichen mathematischen Aufbaus des \textbf{SIR-Modells} soll nun der Fall \textsl{Covid-19} anhand des Modells Genauer Analysiert, und mit der Saisonalen Influenza-Grippe verglichen werden. Hiermit soll demonstriert werden, wie flexibel und exakt das Modell In Realszenarien erscheint, und welche Unterscheidungen zwischen verschiedenen Epidemien bestehen. Auch die Praktische Anwendung und Funktion von Vorhersagen soll Erläutert werden.
+Mit dem Verständnis des Grundsätzlichen mathematischen Aufbaus des \textbf{SIR-Modells} soll nun der Fall \textsl{Covid-19} anhand des Modells Genauer Analysiert, und mit der Saisonalen \textsl{Influenza-Grippe} verglichen werden. Hiermit soll demonstriert werden, wie flexibel und exakt das Modell In Realszenarien erscheint, und welche Unterscheidungen zwischen verschiedenen Epidemien bestehen. Auch die Praktische Anwendung und Funktion von Vorhersagen soll Erläutert werden.
 
 %------------------------------------------------
 
@@ -333,12 +333,14 @@ Dieser Faktor der erneuten Infizierung lässt Wellen-artige Infektionsausbrüche
 
 	\begin{figure}[h]
 	\centering
-	\includegraphics[width=0.55\columnwidth]{Covid-korea-chart.jpg}
+	\includegraphics[width=0.52\columnwidth]{Covid-korea-chart.jpg}
 	\caption[Infektionskurve von Südkorea,\newline https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2020/covid-19-disease-modelling-and-its-impact-on-public-health-policy/]{Infektionskurve von Südkorea}
 	\end{figure}
 	
-Die menge der Patienten ist der durchschnittliche teil der Population \textit{I} mit schweren Verläufen, welcher erneut durch Realdaten erhoben wird \cite{3}. Es ist eine Starke Ähnlichkeit der beiden Graphen zu erkennen.
-Das Modell kann wie gezeigt trotz des vergleichbar einfachen Aufbaus, gute vorhersagen zu simplen Epidemischen Ausbrüchen treffen. Damit kann nun durch absichtliches manipulieren der Parameter auch eine vorhersage zu eventuellen Mutationen oder Gegenmaßnamen getroffen werden. Im Beispiel eines lockdowns wird die Kontaktwahrscheinlichkeit der Populationen \textit{S} und \textit{I} um einen errechneten wert verringert, was folgend den Parameter \textbeta\space und somit die Reproduktionsrate \textit{r} senkt. In Abb. 4.2 ist eine solche Maßnahme für die Indische Stadt Rajasthan errechnet, und getroffen worden. Erneut ist eine klare Ähnlichkeit auszumachen \cite{3, 10, 11}.
+	\newpage
+	
+ Die menge der Patienten ist der durchschnittliche teil der Population \textit{I} mit schweren Verläufen, welcher erneut durch Realdaten erhoben wird \cite{3}. Es ist eine Starke Ähnlichkeit der beiden Graphen zu erkennen. Das Modell kann wie gezeigt trotz des vergleichbar einfachen Aufbaus, gute vorhersagen zu simplen Epidemischen Ausbrüchen treffen.
+Damit kann nun durch absichtliches manipulieren der Parameter auch eine vorhersage zu eventuellen Mutationen oder Gegenmaßnamen getroffen werden. Im Beispiel eines lockdowns wird die Kontaktwahrscheinlichkeit der Populationen \textit{S} und \textit{I} um einen errechneten wert verringert, was folgend den Parameter \textbeta\space und somit die Reproduktionsrate \textit{r} senkt. In Abb. 4.2 ist eine solche Maßnahme für die Indische Stadt Rajasthan errechnet, und getroffen worden. Erneut ist eine klare Ähnlichkeit auszumachen \cite{3, 10, 11}.
 	
 	\begin{figure}[h]
 	\centering
@@ -352,11 +354,17 @@ Das Modell kann wie gezeigt trotz des vergleichbar einfachen Aufbaus, gute vorhe
 
 \subsection{Vergleich mit Influenza}
 
+\textsl{Influenza} ist eine Virale Infektionskrankheit mit starker Ähnlichkeit zu \textsl{Covid-19} in der Verteilung durch \textsl{Aerosole} und husten, mit dem bekanntesten Ausbruch 1918 durch die Spanische Grippe, welche etwa 500 Millionen Menschen Infizierte. \textsl{Influenza} mutiert häufig und tritt so alljährlich Epidemisch auf \cite{2, 3}. Der Grund das \textit{Influenza} trotz vergleichbarer Verbreitung zu \textsl{Covid-19} nicht die selbe Auswirkung auf die Welt hat ist die verglichen Geringe Übertragungsrate. Während \textsl{Covid-19} eine Reproduktionsrate von bis zu 6.0 aufweist, hat die Saisonale \textsl{Influenza-Grippe} ein Maximalwert von Circa. 2.8, an manchen Orten wesentlich weniger. Ein weiterer Faktor ist die Impfung, welche einem Teil der Bevölkerung Immunität gewährt. Durch eine verglichen niedrige Menge an Infizierten zur selben Zeit können Intensiv fälle sofort behandelt werden \cite{3}. Dennoch Versterben laut der WHO jährlich zwischen 290.000 und 650.000 Menschen, größtenteils In Entwicklungsländern an dem Virus. Das Modell welches zur Berechnung von \textsl{Influenza} genutzt wird ist das \textbf{SEIR-Modell}, da eine Inkubationsphase gegeben ist, und Individuen nach der Infektion Immun gegen den Virus sind, was nicht unbedingt für Mutationen Gilt. Durch die Häufigen Mutationen stellt es sich als relativ kompliziert da, die Infektion vorherzusagen \cite{11}.
+
+
 %----------------------------------------------------------------------------------------
 
-\newpage
 \section{Fazit}
-%chaos irl but ez and gud 
+
+In dieser Arbeit wurde die Berechnung und Visualisierung von Infektionen mit Epidemischem verhalten und den vorausgesetzten Bedingungen der Verbreitung in einer Population über einen Zeitraum durch die Verwendung des \textbf{SIR-Modells} behandelt. Das Aufteilen der Gesamtbevölkerung \textit{N} in die Suszeptible, Infizierte und Entfernte Gruppe und ihre jeweilige Bedeutung wurde mitsamt zusammenhängen Erklärt, woraufhin alle Bedingungen und Einschränkungen des Modells aufgezeigt wurden.
+Die Parameter \textbeta\space als Rate der Infektion, welche sich aus der durchschnittlichen Kontakt- und Übertragungswahrscheinlichkeit zwischen Den Gruppen \textit{S} und \textit{I} zusammensetzt, sowie die Erholungsrate \textgamma\space, der durchschnittlichen Dauer der Infektion, wurden mit ihrem Einfluss auf den verlauf der Epidemie Beschrieben. Mithilfe der Populationen und Parametern Wurden die Drei Grundlegenden Differenzialgleichungen des Modells, Welche die Änderungsrate der Populationen beschreiben aufgestellt. Anhand dessen wurde eine Möglichkeit der Visualisierung in Form eines Koordinatensystems und den Graphen der Gleichungen aufgezeigt.
+Komplexere Varianten des Modells wurden angesprochen, durch welche die Kalkulation von weiteren Infektionen ermöglicht, und die Präzision der Rechnungen für einige Epidemien Erhöht. Durch den Einsatz des \textbf{SIR-Modells} an der \textsl{Covid-19} Pandemie kann festgestellt werden, dass das Modell, im Anbetracht eines kurzen Zeitabschnitts und einer Kleinen Bevölkerung durchaus genaue werte liefert, jedoch nicht für die menge an unerwarteten Ereignissen und unterschieden in der Gesamtbevölkerung gemacht ist. Durch den Vergleich mit der \textsl{Influenza-Grippe} wurde die vielseitige Anwendung des Modells, sowie die unterscheide und Gemeinsamkeiten zwischen Epidemien Verdeutlicht.
+Da das \textbf{SIR-Modell} trotz seines simplen Aufbaus dennoch ungefähre bis genaue werte über eine Epidemie liefert ist es eine Exzellente Wahl um schnell und einfach an Informationen über eine Infektion zu gelangen.
 
 %----------------------------------------------------------------------------------------
 
