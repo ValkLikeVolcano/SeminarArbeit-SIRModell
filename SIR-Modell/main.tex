@@ -68,7 +68,7 @@ Doch wie genau Berechnen Epidemiologen die Entwicklung einer Epidemie um Vorhers
 Diese Literaturarbeit soll zunächst das \textbf{SIR-Modell} mit allen Voraussetzungen Betrachten, Die Einhergehenden Differenzialgleichungen und die Basisreproduktionszahl Mathematisch Analysieren und unter Betrachtung der Flexibilität des Modells evaluieren. 
 Des weiteren veranschaulicht die Arbeit das Mathematische Chaos des Modells 
 ferner welche Veränderungen mit verschiedenen Abwandlungen der Formeln und Variablen Einhergehen. 
-Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit der Jährlichen Influenza-Grippe verglichen werden. 
+Die Präzision und Effektivität in der Anwendung soll durch Den Fall \textsl{Covid-19} verdeutlicht und mit der  Saisonalen Influenza-Grippe verglichen werden. 
 Ausgenommen Der Fallbeispiele und der Dynamischen Gesamtbevölkerung werden keine Abweichungen des Modells im Detail Besprochen. 
 
 %----------------------------------------------------------------------------------------
@@ -275,8 +275,8 @@ $$ \frac{\Delta T}{\Delta t} = \gamma I - \epsilon R $$
 In der Realität gibt es eine menge Faktoren, welche die Bevölkerung nicht Konstant halten. Das \textbf{SIR-Modell} mit \textbf{Dynamischer Bevölkerung} versucht durch die erweiterten Parameter \textnu\space für Geburten und \textmu\space für Todesfälle einige der wichtigsten Faktoren einer dynamischen Bevölkerung miteinzubeziehen. Neugeburten werden in die Suszeptible Population eingeordnet, während Tode in jeder Population Präsent sind. Dementsprechend werden diese Parameter zu den Änderungsraten hinzugefügt oder abgezogen \cite{8}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \nu - \mu S $$
-$$ \frac{\Delta I}{\Delta t} = \beta\space S I - \mu I $$
-$$ \frac{\Delta R}{\Delta t} = -\beta\space S I - \mu R $$
+$$ \frac{\Delta I}{\Delta t} = \beta\space S I -\gamma\space I - \mu I $$
+$$ \frac{\Delta R}{\Delta t} = \gamma\space I - \mu R $$
 
 Die meisten Modelle, welche eine Epidemie über einen längeren Zeitraum beobachten verwenden diese Version.
 
@@ -308,22 +308,55 @@ Weitere Erfassbare Werte beinhalten die menge der Suszeptiblen Population nach e
 
 %----------------------------------------------------------------------------------------
 
-\section{Fallbeispiele}
+\section{Das SIR-Modell in Anwendung}
 
-Mit dem Verständnis des Grundsätzlichen mathematischen Aufbaus des \textbf{SIR-Modells} soll nun der Fall \textsl{Covid-19} anhand des Modells Genauer Analysiert, und mit ZWEITEM FALL verglichen werden. Hiermit soll demonstriert werden, wie flexibel und exakt das Modell In Realszenarien erscheint, und welche Unterscheidungen zwischen verschiedenen Epidemien bestehen.
-
-%------------------------------------------------
-
-\subsection{Covid 19}
+Mit dem Verständnis des Grundsätzlichen mathematischen Aufbaus des \textbf{SIR-Modells} soll nun der Fall \textsl{Covid-19} anhand des Modells Genauer Analysiert, und mit der Saisonalen Influenza-Grippe verglichen werden. Hiermit soll demonstriert werden, wie flexibel und exakt das Modell In Realszenarien erscheint, und welche Unterscheidungen zwischen verschiedenen Epidemien bestehen. Auch die Praktische Anwendung und Funktion von Vorhersagen soll Erläutert werden.
 
 %------------------------------------------------
 
-\subsection{Jährliche flu}
+\subsection{Coronavirus Disease 2019}
+
+Da die \textsl{Covid-19} Pandemie sich derzeitig dem Ende Nähert, und die gesamte Welt betroffen war, Gibt es eine menge Daten welche sich mit getroffenen Vorhersagen des \textbf{SIR-Modells} vergleichen lassen. Diese vorhersagen wurden Vor allem für den versuch genutzt, die menge an gleichzeitig Infizierten Individuen zu verringern, um die Überlastung der Krankenhäuser zu verhindern. Damit das Modell näherungsweise präzise werte liefert, wird die Gesamtbevölkerung aufgeteilt, sodass nur eine Stadt oder Land betrachtet wird. Das ist notwendig da die Erfassung von \textbeta\space und \textgamma\space von vielen lokalen Umständen wie der Temperatur, dem Wetter und nicht zuletzt den Maßnahmen zur Einschränkung des Virus beeinflusst wird. 
+Des weiteren weist \textsl{Covid-19} eine Inkubationszeit, also einen Zeitraum in dem ein Individuum infiziert, jedoch nicht ansteckend ist, auf. Aufgrund dessen wird eine weitere Population \textit{E} (Exposed) zwischen den Suszeptiblen und den Infizierten Eingeführt (\textbf{SEIR-Modell}) \cite{11, 3}. Um die durchschnittliche Inkubationsdauer zwischen \textit{S} -> \textit{E} -> \textit{I} zu beschreiben wird der Parameter \textalpha\space verwendet, sodass alle Suszeptiblen Individuen zuerst zu \textit{E} übergehen, und dort die Durchschnittliche Inkubationszeit zu verweilen. Die Gleichungen der Änderungsraten werden dementsprechend angepasst \cite{2, 3}:
+
+$$ \frac{\Delta S}{\Delta t} = -\beta S I $$
+$$ \frac{\Delta E}{\Delta t} = \beta S I - \alpha E$$
+$$ \frac{\Delta I}{\Delta t} = \alpha E - \gamma I $$
+$$ \frac{\Delta R}{\Delta t} = -\gamma I $$
+
+Da die Immunität des Virus nur für einen gewissen Zeitpunkt gegeben ist, wird der Parameter \textepsilon\space des in 3.4.1 angesprochenen \textbf{SIRS-Modells} in das Modell eingefügt, welches dadurch als \textbf{SEIRS-Modell} betitelt wird und die Differenzialgleichungen von \textsl{S} und \textit{R} folgendermaßen verändert \cite{8}:
+
+$$ \frac{\Delta S}{\Delta t} = -\beta S I + \epsilon R$$
+$$ \frac{\Delta R}{\Delta t} = -\gamma I - \epsilon R$$
+
+Dieser Faktor der erneuten Infizierung lässt Wellen-artige Infektionsausbrüche zu, welche \textsl{Covid-19} zu diesem Zeitpunkt bereits dreimalig hatte \cite{3}. Da das \textbf{SIR-Modell} am besten in kurzen Zeitabständen funktioniert, wird hier nur die Erste Infektionswelle, ohne Impfungen betrachtet. Das Modell, wird hier anhand Abb. 4.1, durch die Anzahl der \textsl{Covid-19} Patienten in Südkorea über einen Zeitraum von 60 Tagen mit real erhobenen Daten verglichen.
+
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.55\columnwidth]{Covid-korea-chart.jpg}
+	\caption[Infektionskurve von Südkorea,\newline https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2020/covid-19-disease-modelling-and-its-impact-on-public-health-policy/]{Infektionskurve von Südkorea}
+	\end{figure}
+	
+Die menge der Patienten ist der durchschnittliche teil der Population \textit{I} mit schweren Verläufen, welcher erneut durch Realdaten erhoben wird \cite{3}. Es ist eine Starke Ähnlichkeit der beiden Graphen zu erkennen.
+Das Modell kann wie gezeigt trotz des vergleichbar einfachen Aufbaus, gute vorhersagen zu simplen Epidemischen Ausbrüchen treffen. Damit kann nun durch absichtliches manipulieren der Parameter auch eine vorhersage zu eventuellen Mutationen oder Gegenmaßnamen getroffen werden. Im Beispiel eines lockdowns wird die Kontaktwahrscheinlichkeit der Populationen \textit{S} und \textit{I} um einen errechneten wert verringert, was folgend den Parameter \textbeta\space und somit die Reproduktionsrate \textit{r} senkt. In Abb. 4.2 ist eine solche Maßnahme für die Indische Stadt Rajasthan errechnet, und getroffen worden. Erneut ist eine klare Ähnlichkeit auszumachen \cite{3, 10, 11}.
+	
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\columnwidth]{SIR-data-trend.png}
+	\caption[Infektionskurve mit Lockdown in Rajasthan,\newline Entnommen aus: \cite{3}]{Infektionskurve mit Lockdown in Rajasthan}
+	\end{figure}
+	
+	Wie an Tag 20 allerdings zu erkennen ist, gibt es einige unvorhersehbare Faktoren wie \textsl{Superspreader}, welche eine wesentlich größere menge als den Durchschnitt an Suszeptiblen Individuen infizieren, oder wie in dem Fall der Abbildung 4.2 das plötzliche Wachstum von \textsl{S} durch die Rückkehr von Reisenden aufgrund des Ausgerufenen Lockdowns \cite{3, 11}.
+
+%------------------------------------------------
+
+\subsection{Vergleich mit Influenza}
 
 %----------------------------------------------------------------------------------------
 
 \newpage
 \section{Fazit}
+%chaos irl but ez and gud 
 
 %----------------------------------------------------------------------------------------
 

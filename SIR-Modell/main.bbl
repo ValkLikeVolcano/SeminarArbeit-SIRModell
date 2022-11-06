@@ -69,6 +69,31 @@
       \field{title}{SAMPLE PATH LARGE DEVIATIONS FOR SIRS EPIDEMIC PROCESSES}
       \field{year}{2004}
     \endentry
+    \entry{11}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec09a79712d853833858ccf9811d5a7b}{%
+           family={Elisa\bibnamedelimb Franco\bibnamedelimb und\bibnamedelimb George\bibnamedelimb Mohler\bibnamedelimb und\bibnamedelimb Martin\bibnamedelimb B.\bibnamedelimi Short\bibnamedelimb und\bibnamedelimb Daniel\bibnamedelima Sledge},
+           familyi={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim u\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Andrea\bibnamedelimb L.\bibnamedelimi Bertozzi},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec09a79712d853833858ccf9811d5a7b}
+      \strng{fullhash}{ec09a79712d853833858ccf9811d5a7b}
+      \strng{bibnamehash}{ec09a79712d853833858ccf9811d5a7b}
+      \strng{authorbibnamehash}{ec09a79712d853833858ccf9811d5a7b}
+      \strng{authornamehash}{ec09a79712d853833858ccf9811d5a7b}
+      \strng{authorfullhash}{ec09a79712d853833858ccf9811d5a7b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The challenges of modeling and forecasting the spread of COVID-19}
+      \field{year}{2020}
+      \field{pages}{16732\bibrangedash 16738}
+      \range{pages}{7}
+    \endentry
     \entry{4}{book}{}
       \name{author}{1}{}{%
         {{hash=45aa047365153ce73b8b360290476306}{%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  6 NOV 2022 12:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  6 NOV 2022 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1611,7 +1611,31 @@ Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 228.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./Figures//SIR-model-graph.png>] [8] [9] [10]
+[6] [7 <./Figures//SIR-model-graph.png>] [8] [9]
+Overfull \hbox (4.44832pt too wide) in paragraph at lines 332--333
+[]\T1/ptm/m/n/12 Dieser Fak-tor der er-neu-ten In-fi-zie-rung lässt Wellen-arti
+ge In-fek-ti-ons-aus-brü-che zu, wel-che \T1/ptm/m/sl/12 Covid-
+ []
+
+<Figures//Covid-korea-chart.jpg, id=54, 562.1pt x 421.575pt>
+File: Figures//Covid-korea-chart.jpg Graphic file (type jpg)
+<use Figures//Covid-korea-chart.jpg>
+Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 336
+.
+(pdftex.def)             Requested size: 250.38564pt x 187.79004pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures//SIR-data-trend.png, id=55, 337.26pt x 219.06844pt>
+File: Figures//SIR-data-trend.png Graphic file (type png)
+<use Figures//SIR-data-trend.png>
+Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 345.
+(pdftex.def)             Requested size: 273.14923pt x 177.42773pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11 <./Figures//Covid-korea-chart.jpg> <./Figures//SIR-data-trend.png>]
+[12]
 
 ! LaTeX Error: Unicode character ï¿½ (U+FFFD)
                not set up for use with LaTeX.
@@ -1620,7 +1644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \printbibliography[heading=bibintoc]
+l.365 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1633,7 +1657,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \printbibliography[heading=bibintoc]
+l.365 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1646,7 +1670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \printbibliography[heading=bibintoc]
+l.365 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1654,7 +1678,7 @@ You may provide a definition with
 ! Misplaced alignment tab character &.
 <argument> Taylor &
                     Francis
-l.332 \printbibliography[heading=bibintoc]
+l.365 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1671,12 +1695,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.332 \printbibliography[heading=bibintoc]
+l.365 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-(main.lof)
+(main.lof [13]
+Overfull \hbox (26.69246pt too wide) in paragraph at lines 4--4
+ \T1/ptm/m/n/12 https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2
+020/covid-19-disease- 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1685,7 +1715,7 @@ You may provide a definition with
 Package caption Warning: Unused \captionsetup[subfigure] on input line 32.
 See the caption package documentation for explanation.
 
-[11] (main.aux)
+[14] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1694,13 +1724,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21771 strings out of 475385
- 432972 string characters out of 2789572
- 1334422 words of memory out of 3000000
- 42857 multiletter control sequences out of 15000+600000
+ 21793 strings out of 475385
+ 433632 string characters out of 2789572
+ 1334455 words of memory out of 3000000
+ 42877 multiletter control sequences out of 15000+600000
  551106 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,106p,10601b,1763s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,20n,106p,10601b,2535s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
 ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><F:/Utility/MikTex/f
@@ -1711,9 +1741,9 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 303184 bytes).
+Output written on main.pdf (16 pages, 416169 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

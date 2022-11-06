@@ -12,8 +12,8 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Modell zur Berechnung von Infektionswellen}{7}{}%
 \contentsline {subsubsection}{\numberline {3.4.2}Modell mit dynamischer Gesamtbevölkerung}{8}{}%
 \contentsline {subsection}{\numberline {3.5}Berechenbare Werte des SIR-Modells}{8}{}%
-\contentsline {section}{\numberline {4}Fallbeispiele}{9}{}%
-\contentsline {subsection}{\numberline {4.1}Covid 19}{9}{}%
-\contentsline {subsection}{\numberline {4.2}Jährliche flu}{9}{}%
-\contentsline {section}{\numberline {5}Fazit}{10}{}%
-\contentsline {section}{\nonumberline Literatur}{11}{}%
+\contentsline {section}{\numberline {4}Das SIR-Modell in Anwendung}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Coronavirus Disease 2019}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Vergleich mit Influenza}{11}{}%
+\contentsline {section}{\numberline {5}Fazit}{12}{}%
+\contentsline {section}{\nonumberline Literatur}{13}{}%
