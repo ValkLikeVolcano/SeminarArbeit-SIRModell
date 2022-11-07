@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  7 NOV 2022 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  7 NOV 2022 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1552,18 +1552,13 @@ File: Figures//SIR-model-graph.png Graphic file (type png)
 <use Figures//SIR-model-graph.png>
 Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 251.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--285
-
- []
-
-[7 <./Figures//SIR-model-graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+ [7 <./Figures//SIR-model-graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
+Underfull \hbox (badness 10000) in paragraph at lines 359--363
 
  []
 
@@ -1571,20 +1566,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 360--364
 <Figures//Covid-korea-chart.jpg, id=57, 562.1pt x 421.575pt>
 File: Figures//Covid-korea-chart.jpg Graphic file (type jpg)
 <use Figures//Covid-korea-chart.jpg>
-Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 367
+Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 366
 .
 (pdftex.def)             Requested size: 295.90588pt x 221.92842pt.
 <Figures//SIR-data-trend.png, id=58, 337.26pt x 219.06844pt>
 File: Figures//SIR-data-trend.png Graphic file (type png)
 <use Figures//SIR-data-trend.png>
-Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 377.
+Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 376.
 (pdftex.def)             Requested size: 318.66948pt x 206.99734pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./Figures//Covid-korea-chart.jpg>] [12 <./Figures//SIR-data-trend.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 394--399
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
 
  []
 
@@ -1597,7 +1592,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \printbibliography[heading=bibintoc]
+l.403 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1610,7 +1605,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \printbibliography[heading=bibintoc]
+l.403 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1623,7 +1618,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \printbibliography[heading=bibintoc]
+l.403 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1631,7 +1626,7 @@ You may provide a definition with
 ! Misplaced alignment tab character &.
 <argument> Taylor &
                     Francis
-l.404 \printbibliography[heading=bibintoc]
+l.403 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1648,7 +1643,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \printbibliography[heading=bibintoc]
+l.403 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1679,25 +1674,25 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 412.
+ne 411.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--420
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--420
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--420
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
 
  []
 
@@ -1720,7 +1715,7 @@ Here is how much of TeX's memory you used:
  42955 multiletter control sequences out of 15000+600000
  553600 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,106p,10601b,2539s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,19n,106p,10601b,2539s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk>{F:/Utility/MikTex/fonts/enc/dvips/base/8r.enc} <C:\Users\nico\AppData\L
 ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><F:/Utility/MikTex/f
@@ -1731,7 +1726,7 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 429873 bytes).
+Output written on main.pdf (18 pages, 430087 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

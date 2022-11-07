@@ -1,4 +1,4 @@
-%----------------------------------------------------------------------------------------
+ %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
@@ -78,12 +78,12 @@ Das \textsl{Covid-19} Virus hat in den letzten Jahren eindrucksvoll bewiesen, wi
 Die verheerende Wirkung von Pandemien auf die gesamte Bevölkerung und Wirtschaft der Welt wurden unter anderem durch die Überlastung des Gesundheitssystems oder Einschränkungen der Freiheit anhand von Ausgangsbeschränkungen bis Lockdowns aufgezeigt. Unwissenheit über die Behandlung und die ursprüngliche Absenz eines Impfstoffes verschlimmerten die Situation obendrein.
 Immer wieder verkündeten Experten in den Medien neue Verhaltens- und Hygieneregelungen, welche die Verteilung des Virus verlangsamen sollten.
 Auch Prognosen über die zukünftige Entwicklung und exponentielle Verbreitung der Pandemie wurden diskutiert und veröffentlicht.
-Mit einer solchen Verbreitungsrate konnten Einhundert Infizierte nach nur zwanzig Tagen bereits auf einhundert Millionen Kranke ansteigen.
-Um eine Erneute Pandemie dieses Ausmaßes zu verhindern, Überwachen Infektions-Forscher Krankheiten, welche die Tendenz zu einer epidemischen Ausbreitung anzeigen.
+Mit einer solchen Verbreitungsrate konnten einhundert Infizierte nach nur zwanzig Tagen bereits auf einhundert Millionen Kranke ansteigen.
+Um eine erneute Pandemie dieses Ausmaßes zu verhindern, uberwachen Infektions-Forscher Krankheiten, welche die Tendenz zu einer epidemischen Ausbreitung anzeigen.
 Doch wie genau berechnen Epidemiologen die Entwicklung einer Epidemie, damit Vorhersagen getroffen, und die besten Gegenmaßnahmen zur Eindämmung einer solchen im Zusammenhang mit weiteren relevanten Werten ermittelt werden können?\\
 \\
 Diese Literaturarbeit soll zunächst die Entstehung des \textbf{SIR-Modells} darlegen. Dabei wird das Modell mit allen Voraussetzungen betrachtet, und die einhergehenden Differenzialgleichungen und die Basisreproduktionszahl zur Erfassung der Verbreitung der Infektion mathematisch analysiert und unter Betrachtung der Flexibilität des Modells evaluiert. 
-Des weiteren veranschaulicht die Arbeit die Visualisierung des Modells, einerseits welche Veränderungen mit verschiedenen Abwandlungen der Formeln und Variablen einhergehen, andererseits welchen Nutzen dies mit sich bringt.
+Des Weiteren veranschaulicht die Arbeit die Visualisierung des Modells, einerseits welche Veränderungen mit verschiedenen Abwandlungen der Formeln und Variablen einhergehen, andererseits welchen Nutzen dies mit sich bringt.
 Die Präzision und Effektivität in der Anwendung wird anhand des Beispiels \textsl{"`Covid-19"'} verdeutlicht und mit der saisonalen \textsl{Influenza}-Infektion verglichen.  
 
 %----------------------------------------------------------------------------------------
@@ -123,7 +123,7 @@ Zuerst wird die Gesamtbevölkerung \textit{N} in drei Kategorien unterteilt:
 \normalsize
 
 Wobei \textit{S} alle infizierbaren Individuen, \textit{I} alle Infizierten und \textbf{gleichzeitig} Infektiösen und \textit{R} alle Genesenen oder Verstorbenen beinhaltet.  Zu beachten ist, dass sich Individuen jeweils immer nur in einer Population befinden können und sich Individuen der Population 
-\textit{R} kein weiteres mal infizieren können da sie als Immun gelten. Hierbei kommt es nicht darauf an ob das Individuum Genesen oder Verstorben ist (vgl. Abb. 2.1) \cite{4}.\\
+\textit{R} kein weiteres mal infizieren können da sie als Immun gelten. Hierbei kommt es nicht darauf an ob das Individuum genesen oder verstorben ist (vgl. Abb. 2.1) \cite{4}.\\
 \\
 Alle Populationen interagieren untereinander mit derselben Wahrscheinlichkeit die von nur zwei Parametern, der Übertragungsrate beta \textbeta\space und der Erholungsrate gamma \textgamma\space beeinflusst wird.
 Die Übertragungsrate \textbeta \space (engl. transmission rate) gibt an, wie schnell Individuen der ansteckbaren Population \textit{S} in die infizierte Population übergehen. 
@@ -156,7 +156,7 @@ So ist das Modell als solches zwar nur als ein mathematisches Idealverhältnis e
 
 \section{Mathematischer Aufbau}
 
-Nachdem die wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer Ebene. Danach wird der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt. Auch die grafische Darstellung des Modells wird angesprochen.
+Da nun die wichtigsten Begriffe und Bedingungen für das \textbf{SIR-Modell} nun bekannt sind widmet sich dieses Kapitel der Funktion und Zusammensetzung des Modells auf mathematischer Ebene. Danach wird der Fokus auf die Basisreproduktionszahl sowie auf einige Abweichungen des Modells gelegt. Auch die grafische Darstellung des Modells wird angesprochen.
 Wenn eine konstante Bevölkerung \textit{N} in drei Gruppen aufgeteilt wird, kann \textit{N} jetzt zu jedem Zeitpunkt (\textit{t}) folgendermaßen definiert werden \cite{3,4}:
 
 $$ \large\textit{S}_{(t)} + \textit{I}_{(t)} + \textit{R}_{(t)} = \textit{N}\normalsize $$
@@ -212,7 +212,7 @@ Hier bekommt \textit{I} Zuwachs von \textit{S} mit dem Parameter \textbeta\space
 Wenn eine aktuelle Infektion mit dem \textbf{SIR-Modell} betrachtet wird, soll an erster Stelle erkenntlich gemacht werden wie sich die Infektion verhält oder einwickeln wird. Es gibt drei Verhaltensweisen, die durch das \textbf{SIR-Modell} festgestellt werden können:\\
 
 \begin{itemize}
-	\item \textbf{Endemisch} wird eine Infektion benannt, die regelmäßig an einem Ort auftritt und einigermaßen konstante Infektionen aufweist.\\
+	\item \textbf{Endemisch} wird eine Infektion benannt, die regelmäßig lokal auftritt und einigermaßen konstante Infektionen aufweist.\\
 	
   \item \textbf{Epidemisch} wird eine Infektion dann genannt, wenn an einem Ort schneller Neuinfektionen auftreten wie bereits Infizierte genesen/sterben, sie sich also verbreitet.
 \end{itemize}
@@ -225,7 +225,7 @@ $$ r_{0} = \frac{\beta}{\gamma} $$
 \begin{center}
 \textit{r_{0} > 1 =} \textnormal{Epidemisch}, r_{0} \approx 1 = \textnormal{Endemisch}, r_{0} < 1 = \textnormal{Rückgängig.}
 \end{center}\\
-Im Fall von R = 2 infiziert jedes Individuum der Population \textit{I} zwei weitere Personen, bevor es in \textit{R} übergeht. In diesem Fall wird von Exponentiellem Wachstum gesprochen.
+Im Fall von R = 2, infiziert jedes Individuum der Population \textit{I} zwei weitere Personen, bevor es in \textit{R} übergeht. In diesem Fall wird von exponentiellem Wachstum gesprochen.
 Wenn man die derzeitige Reproduktionszahl eines Zeitpunkts \textit{t} ermitteln möchte, um herauszufinden in welchem Zustand sich die Infektion befindet, muss die Änderungsrate von \textit{S} berücksichtigt werden:
 
 $$ r_{t} = \frac{\beta S_{t}}{\gamma} $$
@@ -244,7 +244,7 @@ Auch hier gilt das zu jedem Zeitpunkt die Summe der Flächen unter den Graphen d
 Die Startwerte der Gruppen an t = 0 sind: 
 $S_{0} \approx 1, I_{0} \approx 0$ wobei: $ S_{0} < 1, I_{0} > 0$ sodass beide zusammen die Menge 1 ergeben \cite{4},
 weil zu Beginn kein Individuum Immunität besitzt und sich mindestens eine infizierte Person in der Bevölkerung befinden muss, um den Ausbruch auszulösen. Daher gilt: $R_{0} = 0, R_{0} \geq 0$ (nicht zu verwechseln mit der Basisreproduktionszahl $r_{0}$).
-Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, wann sie ausstirbt sowie die Menge der Individuen die zu keinem Zeitpunkt infiziert waren \cite{1}.
+In dieser Grafik (Abb. 3.1) lässt sich auslesen dass das Wachstum der Epidemie an Tag 20 endet, da der Graph von \textit{I} an dieser Stelle einen Hochpunkt hat. Auch wann sie ausstirbt (ungefähr Tag 70) sowie die Menge der Individuen die zu keinem Zeitpunkt infiziert waren (0) können abgeleitet werden \cite{1}.
 
 	\begin{figure}[h]
 	\centering
@@ -273,14 +273,13 @@ Anhand dieser Grafik lässt sich auslesen wann das Wachstum der Epidemie endet, 
 
 \subsection{Variationen des SIR-Modells}
 
-Nachdem die grundlegenden Rechnungen und Parameter des \textbf{SIR-Modells} nun bekannt sind, werden im Folgenden einige gängige Variationen des Modells genauer betrachtet. Wie bereits erwähnt ist das Modell prädestiniert dafür, verändert oder erweitert zu werden um genauere Berechnungen an Epidemien zu ermöglichen. Diese Veränderungen können das Hinzufügen weiterer Populationen, Parameter, sowie das Anpassen der Startbedingungen beinhalten \cite{5}.
+Nachdem die grundlegenden Rechnungen und Parameter des \textbf{SIR-Modells} nun bekannt sind, werden im Folgenden einige gängige Variationen des Modells genauer betrachtet. Wie bereits erwähnt ist das Modell prädestiniert dafür, verändert oder erweitert zu werden um exaktere Berechnungen an Epidemien zu ermöglichen. Diese Veränderungen können das Hinzufügen weiterer Populationen, Parameter, sowie das Anpassen der Startbedingungen beinhalten \cite{5}.
 
 %---------------------
 
 \subsubsection{Modell zur Berechnung von Infektionswellen}
 
 Wie am Beispiel \textsl{Covid-19} zu erkennen ist, gibt es Epidemien die keine oder nur temporäre Immunität erlauben. Dies bedeutet das Infektionswellen entstehen, in welchen die Infektion ausbricht und wieder zurückgeht. Um das \textbf{SIR-Modell} für eine solche Situation anzupassen, kann entweder die entfernte Gruppe durch eine Suszeptible ersetzt werden, welches \textbf{SIS-Modell} genannt wird, oder eine weitere suszeptible Gruppe zu einem \textbf{SIRS-Modell} angefügt werden. Die Startbedingungen und Parameter für das \textbf{SIS-Modell} bleiben identisch zu dem \textbf{SIR-Modell}.\\
-\\
 Aus den drei Differentialgleichungen werden zwei:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \gamma I $$
@@ -288,7 +287,7 @@ $$ \frac{\Delta I}{\Delta t} = \beta\space S I - \gamma I$$
 
 \textit{S} nimmt mit \textbeta\space ab, bekommt jedoch die Menge \textgamma\space dazu, während für \textit{I} das genaue Gegenteil gilt. Individuen bewegen sich so von \textit{S} zu \textit{I} in einem ewigen Kreislauf
 \cite{5}.
-Das \textbf{SIRS-Modell} wird eingesetzt, wenn eine nur temporäre Immunität besteht, wie es bei \textsl{Covid-19} der Fall ist. Diese Variation des Modells führt den Parameter \textepsilon\space als durchschnittliche Immunitätsdauer ein. Hier werden die Änderungsraten angepasst indem Individuen von \textit{R} mit der Rate \textepsilon\space zu \textit{S} übergehen, was erneut in einem Kreislaufmodell endet \cite{8}:
+Das \textbf{SIRS-Modell} wird eingesetzt, wenn eine nur temporäre Immunität besteht, wie es bei \textsl{Covid-19} der Fall ist. Diese Variation des Modells führt den Parameter Epsilon (\textepsilon)\space als durchschnittliche Immunitätsdauer ein. Hier werden die Änderungsraten angepasst indem Individuen von \textit{R} mit der Rate \textepsilon\space zu \textit{S} übergehen, was erneut in einem Kreislaufmodell endet \cite{8}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \epsilon R $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I + -\gamma I $$
@@ -297,7 +296,7 @@ $$ \frac{\Delta T}{\Delta t} = \gamma I - \epsilon R $$\\
 %---------------------
 \subsubsection{Modell mit dynamischer Gesamtbevölkerung}
 
-In der Realität gibt es viele Faktoren, die die Bevölkerung nicht konstant halten. Das \textbf{SIR-Modell} mit \textbf{Dynamischer Bevölkerung} versucht durch die erweiterten Parameter \textnu\space für Geburten und \textmu\space für Todesfälle einige der wichtigsten Faktoren einer dynamischen Bevölkerung miteinzubeziehen. Neugeburten werden in die suszeptible Population eingeordnet, während Tode in jeder Population präsent sind. Dementsprechend werden diese Parameter zu den Änderungsraten hinzugefügt oder abgezogen \cite{8}:
+In der Realität gibt es viele Faktoren, die die Bevölkerung nicht konstant halten. Das \textbf{SIR-Modell} mit \textbf{Dynamischer Bevölkerung} versucht durch die erweiterten Parameter Nu (\textnu)\space für Geburten und Mu (\textmu)\space für Todesfälle einige der wichtigsten Faktoren einer dynamischen Bevölkerung miteinzubeziehen. Neugeburten werden in die suszeptible Population eingeordnet, während Tode in jeder Population präsent sind. Dementsprechend werden diese Parameter zu den Änderungsraten hinzugefügt oder abgezogen \cite{8}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta\space S I + \nu - \mu S $$
 $$ \frac{\Delta I}{\Delta t} = \beta\space S I -\gamma\space I - \mu I $$
@@ -310,7 +309,7 @@ Diese Anpassung findet Anwendung in den meisten Modellen, die eine Epidemie übe
 \subsection{Berechenbare Werte des SIR-Modells}
 
 Es gibt eine Menge wertvoller Daten, die durch den Gebrauch des \textbf{SIR-Modells} oder dessen Derivate errechnet werden können.
-Wenn in einer Bevölkerung eine gewisse Anzahl an Personen Immunität gegen eine Infektion aufweist, kann sich die Epidemie nicht länger verbreiten, obwohl \textsl{S} noch Individuen beinhaltet. Dieses Phänomen wird Herdenimmunität oder Herdenschutz genannt. Sie kann durch die Epidemie selbst auftreten, wenn ein Großteil der Bevölkerung durch einmalige Infektion Immun ist, oder durch Impfungen beschleunigt werden \cite{3}.\\
+Wenn in einer Bevölkerung eine gewisse Anzahl an Personen Immunität gegen eine Infektion aufweist, kann sich die Epidemie nicht länger verbreiten, obwohl \textsl{S} noch Individuen beinhaltet. Dieses Phänomen wird Herdenimmunität oder Herdenschutz genannt. Sie kann durch die Epidemie selbst auftreten, wenn ein Großteil der Bevölkerung durch einmalige Infektion immunisiert wird, oder durch Impfungen beschleunigt werden \cite{3}.\\
 Die Bedeutung dieses Schwellenwerts hat sich während des Ausbruchs von \textsl{Covid-19} gezeigt. Es wurde versucht, möglichst schnell durch Impfungen die Herdenimmunität zu erreichen \cite{10}. Anhand des \textbf{SIR-Modells} lässt sich berechnen, wann die Epidemie selbst den Herdenschutz auslöst, in dem der Zeitpunkt von $ \textit{I}_{max} $ bestimmt wird. Auch die Menge von $ \textit{I}_{max} $ lässt sich errechnen, was aufgrund der Komplexität der Formeln in dieser Arbeit nicht behandelt wird. Einfacher zu ermitteln hingegen ist die Größe von $ \textit{S}_{0} $ damit sich keine Epidemie ausbreiten kann, da sie einen Einfluss auf die Basisreproduktionszahl hat, welche wiederum über das Verhalten einer Infektion entscheidet. 
 Dazu muss nur beachtet werden das in diesem Fall bei der Berechnung der Basisreproduktionszahl $\textit{r}_{0} $ die Startmenge von $ \textit{S}_{0}$ nicht vernachlässigt werden darf, da sie nicht der ungefähren Gesamtbevölkerung entspricht \cite{7, 10}:
 
@@ -345,14 +344,14 @@ Mit dem Verständnis des grundsätzlichen mathematischen Aufbaus des \textbf{SIR
 Da die \textsl{Covid-19} Pandemie sich derzeitig dem Ende nähert, und die gesamte Welt betroffen ist, gibt es eine Menge Daten, die sich mit getroffenen Vorhersagen des \textbf{SIR-Modells} vergleichen lassen.
 Vorhersagen des Modells werden vor allem zur Findung und Überprüfung geeigneter Maßnahmen genutzt, um die Menge an gleichzeitig infizierten Individuen mit schweren Verläufen zu verringern. Mit dem Ziel die Überlastung der Krankenhäuser zu verhindern.\\
 Damit das Modell näherungsweise präzise Werte liefert, wird die Gesamtbevölkerung aufgeteilt, sodass nur ein Land oder eine Stadt betrachtet wird. Das ist notwendig da die Erfassung von \textbeta\space und \textgamma\space von vielen lokalen Umständen wie der Temperatur, dem Wetter, der Bevölkerungsdichte und nicht zuletzt den Maßnahmen zur Einschränkung des Virus beeinflusst wird. 
-Des Weiteren weist \textsl{Covid-19} eine Inkubationszeit auf, also einen Zeitraum in dem ein Individuum infiziert, jedoch nicht ansteckend ist. Aufgrund dessen wird eine weitere Population \textit{E} zwischen den Suszeptiblen und den Infizierten eingeführt (\textbf{SEIR-Modell}) \cite{11, 3}. Um die durchschnittliche Inkubationsdauer zwischen \textit{S} -> \textit{E} -> \textit{I} zu beschreiben wird der Parameter \textalpha\space verwendet, sodass alle suszeptiblen Individuen zuerst zu \textit{E} übergehen, und dort die durchschnittliche Inkubationszeit zu verweilen. Die Gleichungen der Änderungsraten werden dementsprechend angepasst \cite{2, 3}:
+Des Weiteren weist \textsl{Covid-19} eine Inkubationszeit auf, also einen Zeitraum in dem ein Individuum infiziert, jedoch nicht ansteckend ist. Aufgrund dessen wird eine weitere Population \textit{E} zwischen den Suszeptiblen und den Infizierten eingeführt (\textbf{SEIR-Modell}) \cite{11, 3}. Um die durchschnittliche Inkubationsdauer zwischen \textit{S} -> \textit{E} -> \textit{I} zu beschreiben wird der Parameter Alpha (\textalpha)\space verwendet, sodass alle suszeptiblen Individuen zuerst zu \textit{E} übergehen, und dort die durchschnittliche Inkubationszeit verweilen. Die Gleichungen der Änderungsraten werden dementsprechend angepasst \cite{2, 3}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta S I $$
 $$ \frac{\Delta E}{\Delta t} = \beta S I - \alpha E$$
 $$ \frac{\Delta I}{\Delta t} = \alpha E - \gamma I $$
 $$ \frac{\Delta R}{\Delta t} = -\gamma I $$
 
-Da die Immunität des Virus nach einer überstandenen Infektion nur für einen gewissen Zeitpunkt gegeben ist, wird der Parameter \textepsilon\space des in 3.4.1 angesprochenen \textbf{SIRS-Modells} in das \textsl{"`Covid-19 Modell"'} eingefügt. Es wird dadurch als \textbf{SEIRS-Modell} betitelt und die Änderungsraten von \textsl{S} und \textit{R} verändern sich folgendermaßen \cite{8}:
+Da bei \textsl{Covid-19} die Immunität des Virus nach einer überstandenen Infektion nur für einen gewissen Zeitpunkt gegeben ist, wird der Parameter \textepsilon\space des in 3.4.1 angesprochenen \textbf{SIRS-Modells} in das \textsl{"`Covid-19 Modell"'} eingefügt. Es wird dadurch als \textbf{SEIRS-Modell} betitelt und die Änderungsraten von \textsl{S} und \textit{R} verändern sich folgendermaßen \cite{8}:
 
 $$ \frac{\Delta S}{\Delta t} = -\beta S I + \epsilon R$$
 $$ \frac{\Delta R}{\Delta t} = -\gamma I - \epsilon R$$
@@ -369,7 +368,7 @@ Die Menge der Patienten ist der durchschnittliche Teil der Population \textit{I}
 	\end{figure}
 	
 Das Modell kann wie gezeigt trotz des vergleichbar einfachen Aufbaus, gute Vorhersagen zu simplen epidemischen Ausbrüchen treffen.
-Damit kann nun durch absichtliches Manipulieren der Parameter auch eine Vorhersage zu eventuellen Mutationen oder Gegenmaßnamen getroffen werden. Im Beispiel eines Lockdowns wird die Kontaktwahrscheinlichkeit der Populationen \textit{S} und \textit{I} um einen errechneten Wert verringert, mit der Folge das der Parameter \textbeta\space und somit die Reproduktionsrate \textit{r} sinkt. In Abb. 4.2 ist eine solche Maßnahme für die Indische Stadt Rajasthan errechnet, und getroffen worden. In der Grafik stellt Orange die normale errechnete Infektionsrate, Blau die errechnete Infektionsrate mit angewandtem Lockdown und Lila die Echtdaten mit Lockdown dar \cite{3, 10, 11}. Die errechnete Lockdown-Kurve weist erneut eine große Ähnlichkeit mit den Echtdaten auf.
+Damit kann nun durch absichtliches Manipulieren der Parameter auch eine Vorhersage zu eventuellen Mutationen oder Gegenmaßnamen getroffen werden. Im Beispiel eines Lockdowns wird die Kontaktwahrscheinlichkeit der Populationen \textit{S} und \textit{I} um einen errechneten Wert verringert, mit der Folge das der Parameter \textbeta\space und somit die Reproduktionsrate \textit{r} sinkt. In Abb. 4.2 ist eine solche Maßnahme für die indische Stadt Rajasthan errechnet, und getroffen worden. In der Grafik stellt Orange die normale errechnete Infektionsrate, Blau die errechnete Infektionsrate mit angewandtem Lockdown und Lila die Echtdaten mit Lockdown dar \cite{3, 10, 11}. Die errechnete Lockdown-Kurve weist erneut eine große Ähnlichkeit mit den Echtdaten auf.
 Daraus lässt sich ableiten, wie präzise die Abwandlung des \textbf{SIR-Modells} die Realität widerspiegelt, und als geeignete Methode angewendet werden kann.
 	
 	\begin{figure}[h]
