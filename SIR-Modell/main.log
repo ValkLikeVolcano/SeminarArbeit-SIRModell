@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  6 NOV 2022 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  7 NOV 2022 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,36 +1205,36 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count424
 \@quotereset=\count425
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 56
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 58
 .
 (F:\Utility\MikTex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 58.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 5
-6.
+8.
 
 (F:\Utility\MikTex\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 56.
-Package tocbasic Info: usage of `tocbibind' detected on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+Package tocbasic Info: usage of `tocbibind' detected on input line 58.
 
 
 Package tocbasic Warning: `tocbibind' redefinition of `\listoffigures'
@@ -1262,8 +1262,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
 
 (F:\Utility\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1323,53 +1323,53 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating german \figurename on input line 56.
+Package scrbase Info: activating german \figurename on input line 58.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-0.
+2.
 (F:\Utility\MikTex\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 <Figures//VHGLogo.jpg, id=1, 272.9077pt x 63.17308pt>
 File: Figures//VHGLogo.jpg Graphic file (type jpg)
 <use Figures//VHGLogo.jpg>
-Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 60.
+Package pdftex.def Info: Figures//VHGLogo.jpg  used on input line 62.
 (pdftex.def)             Requested size: 227.62206pt x 52.69003pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 60.
+ 62.
 
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 60.
+ 62.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 60.
+ 62.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 60.
+ 62.
 
 (F:\Utility\MikTex\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-0.
+2.
 
 (F:\Utility\MikTex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 
 
 LaTeX Warning: No \author given.
@@ -1388,7 +1388,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout4 = `main.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 75--83
+Underfull \hbox (badness 10000) in paragraph at lines 77--88
 
  []
 
@@ -1396,125 +1396,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--83
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-15.
+19.
 (F:\Utility\MikTex\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for LGR+ptm on input line 1
-23.
-LaTeX Font Info:    No file LGRptm.fd. on input line 123.
+28.
+LaTeX Font Info:    No file LGRptm.fd. on input line 128.
 
 
 LaTeX Font Warning: Font shape `LGR/ptm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 123.
+(Font)              using `LGR/cmr/m/n' instead on input line 128.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--133
+
+ []
 
 [2]
-<Figures//SIR-model-flowchart.png, id=21, 853.1875pt x 230.8625pt>
+<Figures//SIR-model-flowchart.png, id=20, 204.765pt x 60.225pt>
 File: Figures//SIR-model-flowchart.png Graphic file (type png)
 <use Figures//SIR-model-flowchart.png>
 Package pdftex.def Info: Figures//SIR-model-flowchart.png  used on input line 1
-31.
-(pdftex.def)             Requested size: 364.19667pt x 98.55031pt.
+36.
+(pdftex.def)             Requested size: 364.19667pt x 107.12386pt.
  [3 <./Figures//SIR-model-flowchart.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 156.
+LaTeX Font Warning: Command \large invalid in math mode on input line 162.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 162.
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 156.
-
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 160.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 ...t{S} > 0, \textit{I} > 0, \textit{R} \geq
-                                                   0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 162.
 
 
-! LaTeX Error: Command \end{center} invalid in math mode.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.163 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Font Warning: Command \large invalid in math mode on input line 166.
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 177.
+            Default family used instead on input line 181.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 177.
+            Default family used instead on input line 181.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 208--216
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--216
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
@@ -1522,7 +1467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--216
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.220 \textit{r_{0} > 1 =}
+l.226 \textit{r_{0} > 1 =}
                            \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1530,7 +1475,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.220 \textit{r_{0} > 1 =}
+l.226 \textit{r_{0} > 1 =}
                            \textnormal{Epidemisch}, r_{0} \approx 1 = \textn...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1545,7 +1490,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \end{center}
+l.227 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1557,7 +1502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \end{center}
+l.227 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1569,7 +1514,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \end{center}
+l.227 \end{center}
                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1577,7 +1522,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.221 \end{center}
+l.227 \end{center}
                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1588,7 +1533,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.221 \end{center}
+l.227 \end{center}
                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1596,36 +1541,50 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<Figures//SIR-model-graph.png, id=39, 741.77126pt x 396.48125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--248
+
+ []
+
+[6]
+<Figures//SIR-model-graph.png, id=43, 741.77126pt x 396.48125pt>
 File: Figures//SIR-model-graph.png Graphic file (type png)
 <use Figures//SIR-model-graph.png>
-Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 243.
+Package pdftex.def Info: Figures//SIR-model-graph.png  used on input line 251.
 (pdftex.def)             Requested size: 364.19667pt x 194.66469pt.
-[6] [7 <./Figures//SIR-model-graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--285
+
+ []
+
+[7 <./Figures//SIR-model-graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 [8] [9]
-<Figures//Covid-korea-chart.jpg, id=54, 562.1pt x 421.575pt>
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
+
+ []
+
+[10]
+<Figures//Covid-korea-chart.jpg, id=57, 562.1pt x 421.575pt>
 File: Figures//Covid-korea-chart.jpg Graphic file (type jpg)
 <use Figures//Covid-korea-chart.jpg>
-Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 354
+Package pdftex.def Info: Figures//Covid-korea-chart.jpg  used on input line 367
 .
-(pdftex.def)             Requested size: 273.14923pt x 204.86244pt.
+(pdftex.def)             Requested size: 295.90588pt x 221.92842pt.
+<Figures//SIR-data-trend.png, id=58, 337.26pt x 219.06844pt>
+File: Figures//SIR-data-trend.png Graphic file (type png)
+<use Figures//SIR-data-trend.png>
+Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 377.
+(pdftex.def)             Requested size: 318.66948pt x 206.99734pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]
-<Figures//SIR-data-trend.png, id=58, 337.26pt x 219.06844pt>
-File: Figures//SIR-data-trend.png Graphic file (type png)
-<use Figures//SIR-data-trend.png>
-Package pdftex.def Info: Figures//SIR-data-trend.png  used on input line 366.
-(pdftex.def)             Requested size: 295.90588pt x 192.2092pt.
- [11 <./Figures//Covid-korea-chart.jpg> <./Figures//SIR-data-trend.png>]
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 384--389
+[11 <./Figures//Covid-korea-chart.jpg>] [12 <./Figures//SIR-data-trend.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 394--399
 
  []
 
@@ -1638,7 +1597,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 \printbibliography[heading=bibintoc]
+l.404 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1651,7 +1610,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 \printbibliography[heading=bibintoc]
+l.404 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1664,7 +1623,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 \printbibliography[heading=bibintoc]
+l.404 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1672,7 +1631,7 @@ You may provide a definition with
 ! Misplaced alignment tab character &.
 <argument> Taylor &
                     Francis
-l.394 \printbibliography[heading=bibintoc]
+l.404 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1689,12 +1648,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 \printbibliography[heading=bibintoc]
+l.404 \printbibliography[heading=bibintoc]
                                           
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [14] (main.lof
+Overfull \hbox (40.4698pt too wide) in paragraph at lines 2--2
+ \T1/ptm/m/n/12 Angepasst von https://www.researchgate.net/figure/SIR-model-flo
+wchart_fig8_318394911 []  
+ []
+
+
 Overfull \hbox (26.69246pt too wide) in paragraph at lines 4--4
  \T1/ptm/m/n/12 https://cmte.ieee.org/futuredirections/tech-policy-ethics/may-2
 020/covid-19-disease- 
@@ -1714,25 +1679,25 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 402.
+ne 412.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--420
 
  []
 
@@ -1751,7 +1716,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  21875 strings out of 475385
  434698 string characters out of 2789572
- 1335935 words of memory out of 3000000
+ 1336946 words of memory out of 3000000
  42955 multiletter control sequences out of 15000+600000
  553600 words of font info for 143 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1766,7 +1731,7 @@ ex/fonts/type1/urw/symbol/usyr.pfb><F:/Utility/MikTex/fonts/type1/urw/symbol/us
 yr.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmb8a.pfb><F:/Utility/MikTex/f
 onts/type1/urw/times/utmr8a.pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmr8a
 .pfb><F:/Utility/MikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 423324 bytes).
+Output written on main.pdf (18 pages, 429873 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
